@@ -14,12 +14,14 @@ import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.core.graphics.ColorUtils
 import cafe.adriel.voyager.navigator.LocalNavigator
@@ -28,10 +30,13 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import dev.icerock.moko.resources.StringResource
 import eu.kanade.presentation.components.AppBar
 import eu.kanade.presentation.components.AppBarActions
+import eu.kanade.presentation.components.RestartPendingBadge
 import eu.kanade.presentation.more.settings.screen.about.AboutScreen
 import eu.kanade.presentation.more.settings.widget.TextPreferenceWidget
 import eu.kanade.presentation.util.LocalBackPress
 import eu.kanade.presentation.util.Screen
+import eu.kanade.tachiyomi.util.system.getLauncherAlias
+import mihon.app.di.appGraph
 import mihon.icons.materialsymbols.MaterialSymbols
 import mihon.icons.materialsymbols.automirroredrounded.ChromeReaderMode
 import mihon.icons.materialsymbols.rounded.Code
@@ -47,6 +52,7 @@ import mihon.icons.materialsymbols.rounded.Sync
 import tachiyomi.i18n.MR
 import tachiyomi.presentation.core.components.material.Scaffold
 import tachiyomi.presentation.core.i18n.stringResource
+import tachiyomi.presentation.core.util.collectAsState
 import cafe.adriel.voyager.core.screen.Screen as VoyagerScreen
 
 object SettingsMainScreen : Screen() {
@@ -149,6 +155,7 @@ object SettingsMainScreen : Screen() {
                                 title = stringResource(item.titleRes),
                                 subtitle = item.formatSubtitle(),
                                 icon = item.icon,
+                                widget = item.formatWidget,
                                 onPreferenceClick = { navigator.navigate(item.screen, twoPane) },
                             )
                         }
@@ -166,6 +173,7 @@ object SettingsMainScreen : Screen() {
         val titleRes: StringResource,
         val subtitleRes: StringResource? = null,
         val formatSubtitle: @Composable () -> String? = { subtitleRes?.let { stringResource(it) } },
+        val formatWidget: (@Composable () -> Unit)? = null,
         val icon: ImageVector,
         val screen: VoyagerScreen,
     )
@@ -174,7 +182,19 @@ object SettingsMainScreen : Screen() {
         Item(
             titleRes = MR.strings.pref_category_appearance,
             subtitleRes = MR.strings.pref_appearance_summary,
+<<<<<<< HEAD
             icon = MaterialSymbols.Rounded.Palette,
+=======
+            formatWidget = {
+                val context = LocalContext.current
+                val uiPreferences = remember { context.appGraph.uiPreferences }
+                val launcherAlias by uiPreferences.launcherAlias.collectAsState()
+                if (launcherAlias != context.getLauncherAlias()) {
+                    RestartPendingBadge()
+                }
+            },
+            icon = Icons.Outlined.Palette,
+>>>>>>> f4d132436 (feat: switch between Tachiyomi and Mihon)
             screen = SettingsAppearanceScreen,
         ),
         Item(

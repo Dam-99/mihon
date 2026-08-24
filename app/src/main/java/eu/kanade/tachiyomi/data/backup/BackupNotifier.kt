@@ -11,6 +11,8 @@ import eu.kanade.tachiyomi.data.notification.NotificationReceiver
 import eu.kanade.tachiyomi.data.notification.Notifications
 import eu.kanade.tachiyomi.util.storage.getUriCompat
 import eu.kanade.tachiyomi.util.system.cancelNotification
+import eu.kanade.tachiyomi.util.system.launcherIconRes
+import eu.kanade.tachiyomi.util.system.logoIconRes
 import eu.kanade.tachiyomi.util.system.notificationBuilder
 import eu.kanade.tachiyomi.util.system.notify
 import tachiyomi.core.common.i18n.pluralStringResource
@@ -28,8 +30,8 @@ class BackupNotifier(
     private val progressNotificationBuilder = context.notificationBuilder(
         Notifications.CHANNEL_BACKUP_RESTORE_PROGRESS,
     ) {
-        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.ic_launcher))
-        setSmallIcon(R.drawable.ic_mihon)
+        setLargeIcon(BitmapFactory.decodeResource(context.resources, context.launcherIconRes))
+        setSmallIcon(context.logoIconRes)
         setAutoCancel(false)
         setOngoing(true)
         setOnlyAlertOnce(true)
@@ -38,8 +40,8 @@ class BackupNotifier(
     private val completeNotificationBuilder = context.notificationBuilder(
         Notifications.CHANNEL_BACKUP_RESTORE_COMPLETE,
     ) {
-        setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.ic_launcher))
-        setSmallIcon(R.drawable.ic_mihon)
+        setLargeIcon(BitmapFactory.decodeResource(context.resources, context.launcherIconRes))
+        setSmallIcon(context.logoIconRes)
         setAutoCancel(false)
     }
 
