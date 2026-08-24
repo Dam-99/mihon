@@ -45,6 +45,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -70,8 +71,10 @@ import cafe.adriel.voyager.navigator.currentOrThrow
 import dev.zacsweers.metro.Inject
 import eu.kanade.domain.base.BasePreferences
 import eu.kanade.domain.source.interactor.GetIncognitoState
+import eu.kanade.domain.ui.UiPreferences
 import eu.kanade.presentation.components.AdaptiveSheet
 import eu.kanade.presentation.components.AppStateBanners
+import eu.kanade.presentation.components.ApplyLauncherAliasDialog
 import eu.kanade.presentation.components.DownloadedOnlyBannerBackgroundColor
 import eu.kanade.presentation.components.IncognitoModeBannerBackgroundColor
 import eu.kanade.presentation.components.IndexingBannerBackgroundColor
@@ -94,6 +97,7 @@ import eu.kanade.tachiyomi.ui.more.NewUpdateScreen
 import eu.kanade.tachiyomi.ui.more.OnboardingScreen
 import eu.kanade.tachiyomi.ui.setting.SettingsScreen
 import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.kanade.tachiyomi.util.system.getLauncherAlias
 import eu.kanade.tachiyomi.util.system.isBenchmarkBuildType
 import eu.kanade.tachiyomi.util.system.isNavigationBarNeedsScrim
 import eu.kanade.tachiyomi.util.system.updaterEnabled
@@ -140,6 +144,8 @@ import kotlin.time.times
 class MainActivity : BaseActivity() {
 
     private val graph: AppGraph by lazy { metroGraph() }
+
+    @Inject private lateinit var uiPreferences: UiPreferences
 
     @Inject private lateinit var libraryPreferences: LibraryPreferences
 
@@ -216,6 +222,20 @@ class MainActivity : BaseActivity() {
             var incognito by remember { mutableStateOf(false) }
             val downloadOnly by preferences.downloadedOnly.collectAsState()
             val indexing by downloadCache.isInitializing.collectAsState()
+
+            var pendingAliasChange by rememberSaveable { mutableStateOf(false) }
+            if (isLaunch) {
+                LaunchedEffect(Unit) {
+                    pendingAliasChange = uiPreferences.launcherAlias.get() != getLauncherAlias()
+                }
+            }
+            if (pendingAliasChange) {
+                ApplyLauncherAliasDialog(
+                    title = stringResource(MR.strings.pref_launcher_alias_pending_title),
+                    message = stringResource(MR.strings.pref_launcher_alias_pending_message),
+                    onDismiss = { pendingAliasChange = false },
+                )
+            }
 
             val isSystemInDarkTheme = isSystemInDarkTheme()
             val statusBarBackgroundColor = when {
