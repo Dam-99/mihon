@@ -1,0 +1,169 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'Dam-99/mihon'
+    name: Sync with upstream
+    runs-on: 'ubuntu-24.04'
+    env:
+      FORK_AUTHOR_USERNAME: Dam-99
+      FORK_AUTHOR_EMAIL: 57217353+Dam-99@users.noreply.github.com
+    outputs:
+      version: ${{ steps.cut_release.outputs.version }}
+      branch: ${{ steps.cut_release.outputs.branch }}
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.MIHON_PAT }}
+
+      - name: Set up GPG key
+        id: gpg
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+
+          echo "${GPG_PRIVATE_KEY}" | gpg --batch --import
+
+          key_id="$(gpg --list-secret-keys --with-colons | awk -F: '/^sec/ {print $5; exit}')"
+          if [ -z "${key_id}" ]; then
+            echo "::error::No secret key found after import"
+            exit 1
+          fi
+
+          echo "key_id=${key_id}" >> "$GITHUB_OUTPUT"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/mihonapp/mihon.git
+          git fetch upstream --tags --force
+
+      - name: Rebase main onto upstream/main
+        run: |
+          set -euo pipefail
+
+          if git merge-base --is-ancestor upstream/main main; then
+            echo "main is already up to date with upstream/main, nothing to rebase"
+            exit 0
+          fi
+
+          fork_commits="$(git log --reverse --cherry-pick --right-only --no-merges --format=%H upstream/main...main)"
+          current_main="$(git rev-parse origin/main)"
+
+          git checkout -B sync-main upstream/main
+
+          if [ -n "${fork_commits}" ]; then
+            while read -r sha; do
+              echo "Cherry-picking ${sha} onto upstream/main"
+
+              c_name="github-actions[bot]"
+              c_email="41898282+github-actions[bot]@users.noreply.github.com"
+              sign_flags=()
+              if [ "$(git log -1 --format=%ae "${sha}")" = "${FORK_AUTHOR_EMAIL}" ]; then
+                c_name="${FORK_AUTHOR_USERNAME}"
+                c_email="${FORK_AUTHOR_EMAIL}"
+                sign_flags=(-c commit.gpgsign=true -c user.signingkey="${{ steps.gpg.outputs.key_id }}")
+              fi
+
+              if ! GIT_COMMITTER_NAME="${c_name}" GIT_COMMITTER_EMAIL="${c_email}" \
+                  git "${sign_flags[@]}" cherry-pick --empty=drop "${sha}"; then
+                git cherry-pick --abort || true
+                echo "::error::Cherry-pick of ${sha} conflicted while rebasing main onto upstream/main"
+                exit 1
+              fi
+            done <<< "${fork_commits}"
+          else
+            echo "No fork-only commits found"
+          fi
+
+          git branch -f main HEAD
+
+          if [ "$(git rev-parse HEAD)" != "${current_main}" ]; then
+            git push --force-with-lease origin HEAD:refs/heads/main
+          else
+            echo "main is already up to date"
+          fi
+
+      - name: Cut release branch
+        id: cut_release
+        run: |
+          set -euo pipefail
+
+          latest_tag="$(git tag -l 'v*' | { grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' || true; } | sort -V | tail -1)"
+          if [ -z "${latest_tag}" ]; then
+            echo "::error::No semver v* tags found on upstream"
+            exit 1
+          fi
+
+          version="${latest_tag#v}"
+          branch="release-${version}"
+          tag="v${version}-dam"
+
+          echo "Latest upstream tag: ${latest_tag}"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
+
+          if [ -n "$(git ls-remote --heads origin "${branch}")" ]; then
+            echo "Release branch ${branch} already exists, nothing to do"
+            exit 0
+          fi
+
+          existing_tag="$(git ls-remote origin "refs/tags/${tag}")"
+          if [ -n "${existing_tag}" ]; then
+            echo "::warning::Tag ${tag} already exists but branch ${branch} does not, skipping tag creation"
+          fi
+
+          fork_commits="$(git rev-list --reverse --no-merges upstream/main..main)"
+
+          git checkout -B sync-release "${latest_tag}"
+
+          if [ -n "${fork_commits}" ]; then
+            while read -r sha; do
+              echo "Cherry-picking ${sha} onto ${latest_tag}"
+
+              c_name="github-actions[bot]"
+              c_email="41898282+github-actions[bot]@users.noreply.github.com"
+              sign_flags=()
+              if [ "$(git log -1 --format=%ae "${sha}")" = "${FORK_AUTHOR_EMAIL}" ]; then
+                c_name="${FORK_AUTHOR_USERNAME}"
+                c_email="${FORK_AUTHOR_EMAIL}"
+                sign_flags=(-c commit.gpgsign=true -c user.signingkey="${{ steps.gpg.outputs.key_id }}")
+              fi
+
+              if ! GIT_COMMITTER_NAME="${c_name}" GIT_COMMITTER_EMAIL="${c_email}" \
+                  git "${sign_flags[@]}" cherry-pick --empty=drop "${sha}"; then
+                git cherry-pick --abort || true
+                echo "::error::Cherry-pick of ${sha} conflicted while cutting ${branch}"
+                exit 1
+              fi
+            done <<< "${fork_commits}"
+          fi
+
+          git push origin HEAD:refs/heads/"${branch}"
+
+          if [ -z "${existing_tag}" ]; then
+            GIT_COMMITTER_NAME="${FORK_AUTHOR_USERNAME}" GIT_COMMITTER_EMAIL="${FORK_AUTHOR_EMAIL}" \
+              git tag -s -u "${{ steps.gpg.outputs.key_id }}" "${tag}" -m "Mihon ${tag}"
+            git push origin "refs/tags/${tag}"
+          fi
