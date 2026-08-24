@@ -116,6 +116,7 @@ object SettingsAppearanceScreen : SearchableSettings {
                     title = stringResource(MR.strings.pref_app_language),
                     onClick = { navigator.push(AppLanguageScreen()) },
                 ),
+                getLauncherAliasPref(uiPreferences = uiPreferences),
                 Preference.PreferenceItem.ListPreference(
                     preference = uiPreferences.tabletUiMode,
                     entries = TabletUiMode.entries
