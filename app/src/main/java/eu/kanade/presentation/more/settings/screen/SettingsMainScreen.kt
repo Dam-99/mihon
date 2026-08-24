@@ -149,6 +149,7 @@ object SettingsMainScreen : Screen() {
                                 title = stringResource(item.titleRes),
                                 subtitle = item.formatSubtitle(),
                                 icon = item.icon,
+                                widget = item.formatWidget,
                                 onPreferenceClick = { navigator.navigate(item.screen, twoPane) },
                             )
                         }
@@ -166,6 +167,7 @@ object SettingsMainScreen : Screen() {
         val titleRes: StringResource,
         val subtitleRes: StringResource? = null,
         val formatSubtitle: @Composable () -> String? = { subtitleRes?.let { stringResource(it) } },
+        val formatWidget: (@Composable () -> Unit)? = null,
         val icon: ImageVector,
         val screen: VoyagerScreen,
     )
@@ -174,6 +176,7 @@ object SettingsMainScreen : Screen() {
         Item(
             titleRes = MR.strings.pref_category_appearance,
             subtitleRes = MR.strings.pref_appearance_summary,
+            formatWidget = { LauncherAliasPendingBadge() },
             icon = MaterialSymbols.Rounded.Palette,
             screen = SettingsAppearanceScreen,
         ),
