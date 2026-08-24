@@ -7,6 +7,9 @@
 # Gradle wrapper
 *.jar binary
 
+# i18n string files: upstream and fork both append at EOF, keep both sides
+i18n/src/commonMain/moko-resources/*/strings.xml merge=union
+
 # Images
 *.webp binary
 *.png binary
