@@ -6,13 +6,13 @@ import android.content.Intent
 import android.net.Uri
 import android.os.IBinder
 import eu.kanade.domain.base.BasePreferences
-import eu.kanade.tachiyomi.R
 import eu.kanade.tachiyomi.data.notification.Notifications
 import eu.kanade.tachiyomi.extension.installer.Installer
 import eu.kanade.tachiyomi.extension.installer.PackageInstallerInstaller
 import eu.kanade.tachiyomi.extension.installer.ShizukuInstaller
 import eu.kanade.tachiyomi.extension.util.ExtensionInstaller.Companion.EXTRA_DOWNLOAD_ID
 import eu.kanade.tachiyomi.util.system.getSerializableExtraCompat
+import eu.kanade.tachiyomi.util.system.logoIconRes
 import eu.kanade.tachiyomi.util.system.notificationBuilder
 import logcat.LogPriority
 import tachiyomi.core.common.i18n.stringResource
@@ -25,7 +25,7 @@ class ExtensionInstallService : Service() {
 
     override fun onCreate() {
         val notification = notificationBuilder(Notifications.CHANNEL_EXTENSIONS_UPDATE) {
-            setSmallIcon(R.drawable.ic_mihon)
+            setSmallIcon(logoIconRes)
             setAutoCancel(false)
             setOngoing(true)
             setShowWhen(false)
