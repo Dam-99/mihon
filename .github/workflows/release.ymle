@@ -204,7 +204,7 @@ jobs:
             cat <<'EOF'
           Fork build of [mihonapp/mihon](https://github.com/mihonapp/mihon) with a little feature applied on top.
 
-          Check out the [upstream release](https://github.com/mihonapp/mihon/releases/tag/v<version>) for the official builds.
+          Check out the [upstream release](https://github.com/mihonapp/mihon/releases/tag/v${VERSION}) for the official builds.
 
           ## Changelog
 
