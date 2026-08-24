@@ -5,19 +5,26 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.app.ActivityCompat
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import eu.kanade.domain.ui.UiPreferences
+import eu.kanade.domain.ui.model.LauncherAlias
 import eu.kanade.domain.ui.model.TabletUiMode
 import eu.kanade.domain.ui.model.ThemeMode
 import eu.kanade.domain.ui.model.setAppCompatDelegateThemeMode
+import eu.kanade.presentation.components.ApplyLauncherAliasDialog
+import eu.kanade.presentation.components.RestartPendingBadge
 import eu.kanade.presentation.more.settings.Preference
 import eu.kanade.presentation.more.settings.screen.appearance.AppLanguageScreen
 import eu.kanade.presentation.more.settings.widget.AppThemeModePreferenceWidget
 import eu.kanade.presentation.more.settings.widget.AppThemePreferenceWidget
+import eu.kanade.presentation.more.settings.widget.LauncherAliasPreferenceWidget
+import eu.kanade.tachiyomi.util.system.getLauncherAlias
 import eu.kanade.tachiyomi.util.system.toast
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toJavaLocalDateTime
@@ -39,9 +46,22 @@ object SettingsAppearanceScreen : SearchableSettings {
     override fun getPreferences(): List<Preference> {
         val uiPreferences = remember { Injekt.get<UiPreferences>() }
 
+        var pendingAliasChange by remember { mutableStateOf(false) }
+
+        if (pendingAliasChange) {
+            ApplyLauncherAliasDialog(
+                title = stringResource(MR.strings.pref_launcher_alias_apply_title),
+                message = stringResource(MR.strings.pref_launcher_alias_apply_message),
+                onDismiss = { pendingAliasChange = false },
+            )
+        }
+
         return listOf(
             getThemeGroup(uiPreferences = uiPreferences),
-            getDisplayGroup(uiPreferences = uiPreferences),
+            getDisplayGroup(
+                uiPreferences = uiPreferences,
+                onAliasSelected = { pendingAliasChange = true },
+            ),
         )
     }
 
@@ -98,6 +118,7 @@ object SettingsAppearanceScreen : SearchableSettings {
     @Composable
     private fun getDisplayGroup(
         uiPreferences: UiPreferences,
+        onAliasSelected: (LauncherAlias) -> Unit,
     ): Preference.PreferenceGroup {
         val context = LocalContext.current
         val navigator = LocalNavigator.currentOrThrow
@@ -105,6 +126,7 @@ object SettingsAppearanceScreen : SearchableSettings {
         val now = remember { Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).toJavaLocalDateTime() }
 
         val dateFormat by uiPreferences.dateFormat.collectAsState()
+        val launcherAlias by uiPreferences.launcherAlias.collectAsState()
         val formattedNow = remember(dateFormat) {
             UiPreferences.dateFormat(dateFormat).format(now)
         }
@@ -116,6 +138,27 @@ object SettingsAppearanceScreen : SearchableSettings {
                     title = stringResource(MR.strings.pref_app_language),
                     onClick = { navigator.push(AppLanguageScreen()) },
                 ),
+                Preference.PreferenceItem.CustomPreference(
+                    title = stringResource(MR.strings.pref_launcher_alias),
+                ) {
+                    LauncherAliasPreferenceWidget(
+                        value = launcherAlias,
+                        appliedAlias = context.getLauncherAlias(),
+                        title = stringResource(MR.strings.pref_launcher_alias),
+                        subtitle = stringResource(MR.strings.pref_launcher_alias_summary),
+                        onValueChange = {
+                            uiPreferences.launcherAlias.set(it)
+                            if (it != context.getLauncherAlias()) {
+                                onAliasSelected(it)
+                            }
+                        },
+                        widget = {
+                            if (launcherAlias != context.getLauncherAlias()) {
+                                RestartPendingBadge()
+                            }
+                        },
+                    )
+                },
                 Preference.PreferenceItem.ListPreference(
                     preference = uiPreferences.tabletUiMode,
                     entries = TabletUiMode.entries
