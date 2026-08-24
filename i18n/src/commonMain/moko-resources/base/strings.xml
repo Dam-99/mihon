@@ -244,6 +244,14 @@
     <string name="theme_yotsuba">Yotsuba</string>
     <string name="theme_tidalwave">Tidal Wave</string>
     <string name="pref_dark_theme_pure_black">Pure black dark mode</string>
+    <string name="pref_launcher_alias">App icon and name</string>
+    <string name="pref_launcher_alias_summary">Changes the app's name and icon</string>
+    <string name="pref_launcher_alias_apply_title">Apply changes?</string>
+    <string name="pref_launcher_alias_apply_message">The app will now restart to apply icon and name changes.</string>
+    <string name="pref_launcher_alias_pending_title">Branding change pending</string>
+    <string name="pref_launcher_alias_pending_message">Restart the app for your changes to take effect.</string>
+    <string name="action_restart_app">Restart</string>
+    <string name="label_restart_pending">Restart pending</string>
     <string name="pref_relative_format">Relative timestamps</string>
     <!-- "Today" instead of "2023-12-31" -->
     <string name="pref_relative_format_summary">\"%1$s\" instead of \"%2$s\"</string>
