@@ -10,6 +10,9 @@ The format is a modified version of [Keep a Changelog](https://keepachangelog.co
 - `Fixed` - for any bug fixes.
 - `Other` - for technical stuff.
 
+Additionally, this fork adds a feature to switch between different app branding:
+the current ***Mihon***, or the previous ***Tachiyomi***.
+
 ## [Unreleased]
 ### Added
 - Add experimental high quality reader renderer (Settings → Advanced → Use high quality renderer) with better image scaling, page transition animations, dual page view and display cutout handling ([@wwww-wwww](https://github.com/wwww-wwww)) ([#3388](https://github.com/mihonapp/mihon/pull/3388))
