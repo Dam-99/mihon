@@ -10,6 +10,9 @@ The format is a modified version of [Keep a Changelog](https://keepachangelog.co
 - `Fixed` - for any bug fixes.
 - `Other` - for technical stuff.
 
+Additionally, this fork adds a feature to switch between different app branding:
+the current ***Mihon***, or the previous ***Tachiyomi***.
+
 ## [Unreleased]
 
 ## [v0.20.4] - 2026-08-05
