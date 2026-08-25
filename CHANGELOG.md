@@ -10,6 +10,9 @@ The format is a modified version of [Keep a Changelog](https://keepachangelog.co
 - `Fixed` - for any bug fixes.
 - `Other` - for technical stuff.
 
+Additionally, this fork adds a feature to switch between different app branding:
+the current ***Mihon***, or the previous ***Tachiyomi***.
+
 ## [Unreleased]
 ### Added
 - Support resumable image downloads if supported by source ([@xMohnad](https://github.com/xMohnad)) ([#3167](https://github.com/mihonapp/mihon/pull/3167))
