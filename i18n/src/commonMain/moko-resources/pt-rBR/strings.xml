@@ -917,4 +917,12 @@
     <string name="extensionStoresScreen.deleteStore.title">Remover loja de extensões</string>
     <string name="pref_webtoon_vertical_navigator_on_left">Coloque o navegador vertical no lado esquerdo</string>
     <string name="extensionStoresScreen.deleteStore.body">Você deseja remover a loja de extensões \"%1$s\" (%2$s)?</string>
+    <string name="pref_launcher_alias">Ícone e nome do aplicativo</string>
+    <string name="pref_launcher_alias_summary">Altera o nome e o ícone do aplicativo</string>
+    <string name="pref_launcher_alias_apply_title">Aplicar alterações?</string>
+    <string name="pref_launcher_alias_apply_message">O aplicativo agora será reiniciado para aplicar as alterações de ícone e nome.</string>
+    <string name="pref_launcher_alias_pending_title">Alteração de marca pendente</string>
+    <string name="pref_launcher_alias_pending_message">Reinicie o aplicativo para que suas alterações entrem em vigor.</string>
+    <string name="action_restart_app">Reiniciar</string>
+    <string name="label_restart_pending">Reiniciar pendente</string>
 </resources>

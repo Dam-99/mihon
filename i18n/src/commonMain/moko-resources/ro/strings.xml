@@ -903,4 +903,12 @@
     <string name="donationCampaign.paragraph3">In orice caz, Mihon va continua sa fie intretinut de mine si de voluntari si va ramane open source.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Ignora</string>
+    <string name="pref_launcher_alias">Pictograma și numele aplicației</string>
+    <string name="pref_launcher_alias_summary">Modifică numele și pictograma aplicației</string>
+    <string name="pref_launcher_alias_apply_title">Aplici modificările?</string>
+    <string name="pref_launcher_alias_apply_message">Aplicația va reporni acum pentru a aplica pictograma și modificările de nume.</string>
+    <string name="pref_launcher_alias_pending_title">Modificare de brand în așteptare</string>
+    <string name="pref_launcher_alias_pending_message">Reporniți aplicația pentru ca modificările să intre în vigoare.</string>
+    <string name="action_restart_app">Repornire</string>
+    <string name="label_restart_pending">Repornire în așteptare</string>
 </resources>

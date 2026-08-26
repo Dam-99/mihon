@@ -917,4 +917,12 @@
     <string name="donationCampaign.paragraph3">Bagaimanapun juga, Mihon akan terus dipelihara oleh saya dan para sukarelawan, dan akan tetap bersifat open source.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Tutup</string>
+    <string name="pref_launcher_alias">Ikon dan nama aplikasi</string>
+    <string name="pref_launcher_alias_summary">Mengubah nama dan ikon aplikasi</string>
+    <string name="pref_launcher_alias_apply_title">Terapkan perubahan?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikasi sekarang akan memulai ulang untuk menerapkan perubahan ikon dan nama.</string>
+    <string name="pref_launcher_alias_pending_title">Perubahan branding tertunda</string>
+    <string name="pref_launcher_alias_pending_message">Mulai ulang aplikasi agar perubahan Anda berlaku.</string>
+    <string name="action_restart_app">Mulai ulang</string>
+    <string name="label_restart_pending">Mulai ulang tertunda</string>
 </resources>

@@ -313,4 +313,12 @@
     <string name="creating_backup">Opretter sikkerhedskopi</string>
     <string name="exception_unknown_host">Kunne ikke nå %s</string>
     <string name="channel_new_chapters">Kapitelopdateringer</string>
+    <string name="pref_launcher_alias">App-ikon og navn</string>
+    <string name="pref_launcher_alias_summary">Ændrer appens navn og ikon</string>
+    <string name="pref_launcher_alias_apply_title">Vil du anvende ændringerne?</string>
+    <string name="pref_launcher_alias_apply_message">Appen genstarter nu for at anvende ikon- og navneændringer.</string>
+    <string name="pref_launcher_alias_pending_title">Brandingændring afventer</string>
+    <string name="pref_launcher_alias_pending_message">Genstart appen, så dine ændringer træder i kraft.</string>
+    <string name="action_restart_app">Genstart</string>
+    <string name="label_restart_pending">Genstart afventer</string>
 </resources>

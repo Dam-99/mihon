@@ -283,4 +283,12 @@
     <string name="ext_uninstall">သင့်ဖုန်းမှ ဖယ်ရှားရန်</string>
     <string name="theme_monet">Dynamic</string>
     <string name="label_auto">အလိုအလျောက်</string>
+    <string name="pref_launcher_alias">အက်ပ်အိုင်ကွန်နှင့်အမည်</string>
+    <string name="pref_launcher_alias_summary">App ၏ အမည်နှင့် Icon ကိုပြောင်းပါ</string>
+    <string name="pref_launcher_alias_apply_title">အပြောင်းအလဲများကို အကောင်အထည်ဖော်မည်လား ။</string>
+    <string name="pref_launcher_alias_apply_message">ယခု app သည် icon နှင့်အမည်ပြောင်းလဲမှုများကိုအသုံးချရန်ပြန်လည်စတင်လိမ့်မည် ။</string>
+    <string name="pref_launcher_alias_pending_title">အမှတ်တံဆိပ်ပြောင်းလဲမှုကို စောင့်ဆိုင်းနေပါသည်</string>
+    <string name="pref_launcher_alias_pending_message">သင် ၏ ပြောင်းလဲမှုများကိုအကျိုးသက်ရောက်စေရန်အက်ပ်ကိုပြန်လည်စတင်ပါ ။</string>
+    <string name="action_restart_app">ပြန်စမည်</string>
+    <string name="label_restart_pending">ဆိုင်းငံ့ထားသော ပြန်စမည်</string>
 </resources>

@@ -909,4 +909,12 @@
     <string name="donationCampaign.paragraph3">Sendepende de tio, Mihon daŭre estos prizorgata de mi kaj la volontuloj, kaj ĝi restos malfermitkoda.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Kaŝi</string>
+    <string name="pref_launcher_alias">App piktogramo kaj nomo</string>
+    <string name="pref_launcher_alias_summary">Ŝanĝu la nomon kaj ikonon de la aplikaĵo</string>
+    <string name="pref_launcher_alias_apply_title">Ĉu apliki ŝanĝojn?</string>
+    <string name="pref_launcher_alias_apply_message">La app nun rekomencos apliki ikonon kaj nomo ŝanĝoj.</string>
+    <string name="pref_launcher_alias_pending_title">@ info: whatsthis</string>
+    <string name="pref_launcher_alias_pending_message">Rekomencu la aplikaĵon por efektivigi viajn ŝanĝojn.</string>
+    <string name="action_restart_app">Rekomenci</string>
+    <string name="label_restart_pending">Restartigi atende</string>
 </resources>
