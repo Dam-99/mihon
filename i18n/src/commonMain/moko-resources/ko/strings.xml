@@ -921,4 +921,12 @@
     <string name="theme_tokyonight">도쿄 나이트</string>
     <string name="downloading_with_progress">다운로드 중… (%d%%)</string>
     <string name="pref_filter_update_categories_details">제외된 카테고리 업데이트는 포함되는 카테고리가 있어도 표시되지 않습니다.</string>
+    <string name="pref_launcher_alias">앱 아이콘 및 이름</string>
+    <string name="pref_launcher_alias_summary">앱의 이름과 아이콘을 변경합니다.</string>
+    <string name="pref_launcher_alias_apply_title">변경 사항을 적용하시겠습니까?</string>
+    <string name="pref_launcher_alias_apply_message">이제 아이콘과 이름 변경 사항을 적용하기 위해 앱이 다시 시작됩니다.</string>
+    <string name="pref_launcher_alias_pending_title">브랜딩 변경 대기 중</string>
+    <string name="pref_launcher_alias_pending_message">변경 사항을 적용하려면 앱을 다시 시작하세요.</string>
+    <string name="action_restart_app">다시 시작</string>
+    <string name="label_restart_pending">재시작 대기 중</string>
 </resources>

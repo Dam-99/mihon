@@ -922,4 +922,12 @@
     <string name="theme_tokyonight">Токийская Ночь</string>
     <string name="pref_filter_update_categories_details">Обновления в исключённых категориях не будут показываться, даже если они находятся во включённых категориях.</string>
     <string name="pref_filter_upcoming_categories_details">Серии в исключённых категориях не будут показываться, даже если находятся в любых включённых категориях.</string>
+    <string name="pref_launcher_alias">Значок и название приложения</string>
+    <string name="pref_launcher_alias_summary">Изменяет название и значок приложения</string>
+    <string name="pref_launcher_alias_apply_title">Применить изменения?</string>
+    <string name="pref_launcher_alias_apply_message">Приложение будет перезапущено, чтобы применить изменения значка и имени.</string>
+    <string name="pref_launcher_alias_pending_title">Ожидается изменение брендинга</string>
+    <string name="pref_launcher_alias_pending_message">Перезапустите приложение, чтобы изменения вступили в силу.</string>
+    <string name="action_restart_app">Перезапуск</string>
+    <string name="label_restart_pending">Ожидание перезапуска</string>
 </resources>

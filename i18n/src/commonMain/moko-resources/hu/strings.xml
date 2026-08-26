@@ -833,4 +833,12 @@
     <string name="action_toggle_private_on">Privát nyilvántartás</string>
     <string name="action_toggle_private_off">Nyilvános nyilvántartás</string>
     <string name="notes_placeholder">Élveztem azt a részt, ahol…</string>
+    <string name="pref_launcher_alias">Alkalmazás ikonja és neve</string>
+    <string name="pref_launcher_alias_summary">Módosítja az alkalmazás nevét és ikonját</string>
+    <string name="pref_launcher_alias_apply_title">Alkalmazza a módosításokat?</string>
+    <string name="pref_launcher_alias_apply_message">Az alkalmazás most újraindul az ikon- és névmódosítások alkalmazásához.</string>
+    <string name="pref_launcher_alias_pending_title">Márka módosítása függőben</string>
+    <string name="pref_launcher_alias_pending_message">Indítsd újra az alkalmazást, hogy a módosítások érvénybe léphessenek.</string>
+    <string name="action_restart_app">Újraindítás</string>
+    <string name="label_restart_pending">Újraindítás függőben</string>
 </resources>

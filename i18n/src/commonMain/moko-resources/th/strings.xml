@@ -832,4 +832,12 @@
     <string name="clear_database_text">คุณกำลังจะลบรายการออกจากฐานข้อมูล</string>
     <string name="pref_display_images_description">เรนเดอร์รูปภาพในคำอธิบายเรื่อง</string>
     <string name="pref_disallow_non_ascii_filenames">ไม่อนุญาตชื่อไฟล์ที่ไม่ใช่ ASCII</string>
+    <string name="pref_launcher_alias">ไอคอนและชื่อแอป</string>
+    <string name="pref_launcher_alias_summary">เปลี่ยนชื่อและไอคอนของแอพ</string>
+    <string name="pref_launcher_alias_apply_title">ใช้การเปลี่ยนแปลงไหม?</string>
+    <string name="pref_launcher_alias_apply_message">ตอนนี้แอพจะรีสตาร์ทเพื่อใช้ไอคอนและการเปลี่ยนชื่อ</string>
+    <string name="pref_launcher_alias_pending_title">การเปลี่ยนแปลงแบรนด์อยู่ระหว่างดำเนินการ</string>
+    <string name="pref_launcher_alias_pending_message">รีสตาร์ทแอพเพื่อให้การเปลี่ยนแปลงมีผล</string>
+    <string name="action_restart_app">รีสตาร์ท</string>
+    <string name="label_restart_pending">รอดำเนินการรีสตาร์ท</string>
 </resources>

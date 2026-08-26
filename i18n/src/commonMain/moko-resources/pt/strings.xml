@@ -902,4 +902,12 @@
     <string name="donationCampaign.paragraph3">Apesar disso, Mihon continuará a se mantido por mim e pelos voluntários e se manterá de código aberto.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Ignorar</string>
+    <string name="pref_launcher_alias">Ícone e nome da aplicação</string>
+    <string name="pref_launcher_alias_summary">Altera o nome e o ícone da aplicação</string>
+    <string name="pref_launcher_alias_apply_title">Aplicar alterações?</string>
+    <string name="pref_launcher_alias_apply_message">O aplicativo agora será reiniciado para aplicar as alterações de ícone e nome.</string>
+    <string name="pref_launcher_alias_pending_title">Alteração de marca pendente</string>
+    <string name="pref_launcher_alias_pending_message">Reinicie a aplicação para que as suas alterações entrem em vigor.</string>
+    <string name="action_restart_app">Reiniciar</string>
+    <string name="label_restart_pending">Reinício pendente</string>
 </resources>

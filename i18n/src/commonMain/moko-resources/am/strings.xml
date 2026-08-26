@@ -275,4 +275,12 @@
     <string name="backup_restore_missing_trackers">መከታተያዎች አልገቡም:</string>
     <string name="backup_restore_missing_sources">የጠፋ ምንጮች:</string>
     <string name="invalid_backup_file_missing_manga">ምትኬ ማንኛውንም ማንጋ አልያዘም ፡፡</string>
+    <string name="pref_launcher_alias">የመተግበሪያ አዶ እና ስም</string>
+    <string name="pref_launcher_alias_summary">የመተግበሪያ ስም እና አዶ ይለውጣል</string>
+    <string name="pref_launcher_alias_apply_title">ለውጦችን ይተግብሩ?</string>
+    <string name="pref_launcher_alias_apply_message">መተግበሪያው አሁን አዶ እና ስም ለውጦችን ተግባራዊ ለማድረግ ዳግም ይጀምራል.</string>
+    <string name="pref_launcher_alias_pending_title">የምርት ስም ለውጥ በመጠባበቅ ላይ</string>
+    <string name="pref_launcher_alias_pending_message">የእርስዎ ለውጦች ተግባራዊ ለማድረግ መተግበሪያውን ዳግም ያስጀምሩ.</string>
+    <string name="action_restart_app">ዳግም አስጀምር</string>
+    <string name="label_restart_pending">በመጠባበቅ ላይ ዳግም አስጀምር</string>
 </resources>

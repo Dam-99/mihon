@@ -761,4 +761,12 @@
     <string name="upcoming_calendar_prev">החודש שעבר</string>
     <string name="pref_filter_upcoming_categories_details">פריטים בקטגוריות מוחרגות לא יוצגו, גם אם הם מופיעים בקטגוריות נבחרות.</string>
     <string name="label_support_us">תמיכה ב־Mihon</string>
+    <string name="pref_launcher_alias">סמל ושם האפליקציה</string>
+    <string name="pref_launcher_alias_summary">שינוי השם והסמל של האפליקציה</string>
+    <string name="pref_launcher_alias_apply_title">להחיל שינויים?</string>
+    <string name="pref_launcher_alias_apply_message">כעת האפליקציה תופעל מחדש כדי להחיל שינויים בסמל ובשם.</string>
+    <string name="pref_launcher_alias_pending_title">שינוי המיתוג בהמתנה</string>
+    <string name="pref_launcher_alias_pending_message">יש להפעיל מחדש את האפליקציה כדי שהשינויים ייכנסו לתוקף.</string>
+    <string name="action_restart_app">הפעלה מחדש</string>
+    <string name="label_restart_pending">בהמתנה להפעלה מחדש</string>
 </resources>

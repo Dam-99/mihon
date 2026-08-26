@@ -842,4 +842,12 @@
     <string name="clear_database_text">Estás a piques de borrar elementos da túa base de datos</string>
     <string name="clear_database_history_warning">Perderás os capítulos lidos e o progreso de lectura das obras que non estén na biblioteca</string>
     <string name="clear_db_exclude_read">Conservar as obras con capítulos lidos</string>
+    <string name="pref_launcher_alias">Icona e nome da aplicación</string>
+    <string name="pref_launcher_alias_summary">Cambia o nome e a icona da aplicación</string>
+    <string name="pref_launcher_alias_apply_title">Aplicar cambios?</string>
+    <string name="pref_launcher_alias_apply_message">A aplicación agora reiniciarase para aplicar cambios de iconas e nomes.</string>
+    <string name="pref_launcher_alias_pending_title">Pendente de cambio de marca</string>
+    <string name="pref_launcher_alias_pending_message">Reinicie a aplicación para que os seus cambios teñan efecto.</string>
+    <string name="action_restart_app">Reiniciar</string>
+    <string name="label_restart_pending">Reiniciar pendente</string>
 </resources>

@@ -922,4 +922,12 @@
     <string name="downloading_with_progress">Wird heruntergeladen… (%d%%)</string>
     <string name="pref_filter_update_categories_details">Aktualisierungen in ausgeschlossen Kategorien werden nicht angezeigt, selbst wenn sie in eingeschlossenen Kategorien vorkommen.</string>
     <string name="pref_filter_upcoming_categories_details">Titel in ausgeschlossen Kategorien werden nicht angezeigt, selbst wenn sie in eingeschlossenen Kategorien vorkommen.</string>
+    <string name="pref_launcher_alias">App-Symbol und Name</string>
+    <string name="pref_launcher_alias_summary">Ändert den Namen und das Symbol der App</string>
+    <string name="pref_launcher_alias_apply_title">Änderungen übernehmen?</string>
+    <string name="pref_launcher_alias_apply_message">Die App wird nun neu gestartet, um Symbol- und Namensänderungen vorzunehmen.</string>
+    <string name="pref_launcher_alias_pending_title">Branding-Änderung ausstehend</string>
+    <string name="pref_launcher_alias_pending_message">Starte die App neu, damit deine Änderungen wirksam werden.</string>
+    <string name="action_restart_app">Neustart</string>
+    <string name="label_restart_pending">Neustart ausstehend</string>
 </resources>

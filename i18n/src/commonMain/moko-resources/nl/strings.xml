@@ -909,4 +909,12 @@
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Afwijzen</string>
     <string name="considering">Aan het overwegen</string>
+    <string name="pref_launcher_alias">App-pictogram en naam</string>
+    <string name="pref_launcher_alias_summary">De naam en het pictogram van de app wijzigen</string>
+    <string name="pref_launcher_alias_apply_title">Wijzigingen toepassen?</string>
+    <string name="pref_launcher_alias_apply_message">De app wordt nu opnieuw opgestart om pictogram- en naamswijzigingen toe te passen.</string>
+    <string name="pref_launcher_alias_pending_title">Merkwijziging in behandeling</string>
+    <string name="pref_launcher_alias_pending_message">Start de app opnieuw om je wijzigingen door te voeren.</string>
+    <string name="action_restart_app">Herstarten</string>
+    <string name="label_restart_pending">Herstart in behandeling</string>
 </resources>

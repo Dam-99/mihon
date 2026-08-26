@@ -896,4 +896,12 @@
     <string name="donationCampaign.paragraph3">যিকি নহওক, Mihon মই আৰু স্বেচ্ছাসেৱকসকলৰ দ্বাৰা পৰিচালিত হৈ থাকিব, আৰু ই মুক্ত উৎস হৈ থাকিব।</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">খাৰিজ কৰক</string>
+    <string name="pref_launcher_alias">এপৰ আইকন আৰু নাম</string>
+    <string name="pref_launcher_alias_summary">এপটোৰ নাম আৰু আইকন সলনি কৰে</string>
+    <string name="pref_launcher_alias_apply_title">পৰিৱৰ্তনসমূহ প্ৰয়োগ কৰিব নেকি?</string>
+    <string name="pref_launcher_alias_apply_message">এপ্পটোৱে এতিয়া আইকন আৰু নামৰ পৰিৱৰ্তন প্ৰয়োগ কৰিবলৈ পুনৰাম্ভ কৰিব ।</string>
+    <string name="pref_launcher_alias_pending_title">ব্ৰেণ্ডিং পৰিৱৰ্তন বিচাৰাধীন</string>
+    <string name="pref_launcher_alias_pending_message">আপোনাৰ পৰিৱৰ্তনসমূহ কাৰ্যকৰী হ 'বলৈ এপ্ ‌ টো পুনৰাৰম্ভ কৰক ।</string>
+    <string name="action_restart_app">পুনৰাৰম্ভ কৰক</string>
+    <string name="label_restart_pending">মুলতুবি থকা পুনৰাম্ভ কৰক</string>
 </resources>

@@ -235,4 +235,12 @@
     <string name="action_remove_everything">لادانی هەمووشتێك</string>
     <string name="action_search_hint">گەڕان…</string>
     <string name="delete_category_confirmation">\?ڕەشبکەیتەوە \"%s\"ئایا ئەتەوێ کە بەشی</string>
+    <string name="pref_launcher_alias">Nîşan û navê sepanê</string>
+    <string name="pref_launcher_alias_summary">Nav û îkona sepanê diguherîne</string>
+    <string name="pref_launcher_alias_apply_title">Guhertinan bicîh bîne? Guhertinan bicîh bîne?</string>
+    <string name="pref_launcher_alias_apply_message">Niha sepan dê ji nû ve were destpêkirin da ku guhertinên îkon û navan bicîh bîne.</string>
+    <string name="pref_launcher_alias_pending_title">Guhertina marqeyê li benda ye</string>
+    <string name="pref_launcher_alias_pending_message">Ji bo ku guhertinên te bandor bibin, sepanê ji nû ve bidin destpêkirin.</string>
+    <string name="action_restart_app">Ji nû ve destpêkirin</string>
+    <string name="label_restart_pending">Ji nû ve destpêkirin li benda ye</string>
 </resources>
