@@ -739,4 +739,12 @@
     <string name="pref_hardware_bitmap_threshold_default">Predvolený (%d)</string>
     <string name="pref_hardware_bitmap_threshold_summary">Ak čítacie rozhranie načítava prázdne obrázky, postupne znížte prah.\nVybrané: %s</string>
     <string name="pref_always_decode_long_strip_with_ssiv_2">Použiť starší dekodér pre čítacie rozhranie \"dlhé pásy\"</string>
+    <string name="pref_launcher_alias">Ikona a názov aplikácie</string>
+    <string name="pref_launcher_alias_summary">Zmení názov a ikonu aplikácie</string>
+    <string name="pref_launcher_alias_apply_title">Použiť zmeny?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikácia sa teraz reštartuje a použije zmeny ikon a názvov.</string>
+    <string name="pref_launcher_alias_pending_title">Čaká sa na zmenu značky</string>
+    <string name="pref_launcher_alias_pending_message">Reštartujte aplikáciu, aby sa zmeny prejavili.</string>
+    <string name="action_restart_app">Reštartovať</string>
+    <string name="label_restart_pending">Reštartovať čakajúce</string>
 </resources>

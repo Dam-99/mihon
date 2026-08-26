@@ -207,4 +207,12 @@
     <string name="action_sort_last_manga_update">ពិនិត្យបច្ចុប្បន្នភាពចុងក្រោយ</string>
     <string name="delete_category">លុបថ្នាក់ក្រម</string>
     <string name="action_sort_next_updated">ភាគថ្មីរំពឹងទុកនៅ</string>
+    <string name="pref_launcher_alias">រូបតំណាងកម្មវិធី និងឈ្មោះ</string>
+    <string name="pref_launcher_alias_summary">ផ្លាស់ប្ដូរឈ្មោះកម្មវិធី និងអាយខន់</string>
+    <string name="pref_launcher_alias_apply_title">អនុវត្តការផ្លាស់ប្តូរ?</string>
+    <string name="pref_launcher_alias_apply_message">ឥឡូវនេះ កូនកម្មវិធីនេះ នឹងចាប់ផ្ដើមដំណើរការឡើងវិញ ដើម្បីអនុវត្តការផ្លាស់ប្ដូរអាយខន់ និង ឈ្មោះ ។</string>
+    <string name="pref_launcher_alias_pending_title">កំពុងរង់ចាំការផ្លាស់ប្តូរម៉ាកយីហោ</string>
+    <string name="pref_launcher_alias_pending_message">ចាប់ផ្តើមកម្មវិធីឡើងវិញដើម្បីឱ្យការផ្លាស់ប្តូររបស់អ្នកមានប្រសិទ្ធភាព ។</string>
+    <string name="action_restart_app">ចាប់ផ្ដើមឡើងវិញ</string>
+    <string name="label_restart_pending">ចាប់ផ្តើមឡើងវិញដែលមិនទាន់សម្រេច</string>
 </resources>

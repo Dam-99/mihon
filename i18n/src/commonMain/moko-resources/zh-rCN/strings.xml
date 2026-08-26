@@ -918,4 +918,12 @@
     <string name="extensionStoresScreen.deleteStore.body">是否移除插件商店 \"%1$s\" (%2$s)？</string>
     <string name="pref_webtoon_vertical_navigator">阅读条漫时使用垂直导航栏</string>
     <string name="pref_webtoon_vertical_navigator_on_left">将垂直导航栏放在左侧</string>
+    <string name="pref_launcher_alias">应用图标和名称</string>
+    <string name="pref_launcher_alias_summary">更改应用的名称和图标</string>
+    <string name="pref_launcher_alias_apply_title">应用更改？</string>
+    <string name="pref_launcher_alias_apply_message">应用现在将重新启动以应用图标和名称更改。</string>
+    <string name="pref_launcher_alias_pending_title">品牌更改待定</string>
+    <string name="pref_launcher_alias_pending_message">请重新启动应用，以使更改生效。</string>
+    <string name="action_restart_app">重启</string>
+    <string name="label_restart_pending">重启挂起</string>
 </resources>

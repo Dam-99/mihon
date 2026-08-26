@@ -912,4 +912,12 @@
     <string name="extensionStoresScreen.deleteStore.body">¿Seguro que quieres quitar el listado de extensiones «%1$s» (%2$s)?</string>
     <string name="pref_webtoon_vertical_navigator">Navegar de forma vertical al leer tiras largas</string>
     <string name="pref_webtoon_vertical_navigator_on_left">Ubicar la interfaz de navegación en el margen izquierdo</string>
+    <string name="pref_launcher_alias">Icono y nombre de la aplicación</string>
+    <string name="pref_launcher_alias_summary">Cambia el nombre y el icono de la aplicación</string>
+    <string name="pref_launcher_alias_apply_title">¿Aplicar cambios?</string>
+    <string name="pref_launcher_alias_apply_message">La aplicación ahora se reiniciará para aplicar cambios de icono y nombre.</string>
+    <string name="pref_launcher_alias_pending_title">Cambio de marca pendiente</string>
+    <string name="pref_launcher_alias_pending_message">Reinicia la aplicación para que los cambios surtan efecto.</string>
+    <string name="action_restart_app">Reiniciar</string>
+    <string name="label_restart_pending">Reiniciar pendiente</string>
 </resources>

@@ -918,4 +918,12 @@
     <string name="donationCampaign.paragraph3">Ανεξάρτητα από αυτό, το Mihon θα συνεχίσει να συντηρείται από εμένα και τους εθελοντές και θα παραμείνει ανοιχτού κώδικα.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Απόρριψη</string>
+    <string name="pref_launcher_alias">Εικονίδιο και όνομα εφαρμογής</string>
+    <string name="pref_launcher_alias_summary">Αλλάζει το όνομα και το εικονίδιο της εφαρμογής</string>
+    <string name="pref_launcher_alias_apply_title">Εφαρμογή αλλαγών;</string>
+    <string name="pref_launcher_alias_apply_message">Η εφαρμογή θα επανεκκινήσει τώρα για να εφαρμόσει αλλαγές εικονιδίων και ονομάτων.</string>
+    <string name="pref_launcher_alias_pending_title">Η αλλαγή επωνυμίας εκκρεμεί</string>
+    <string name="pref_launcher_alias_pending_message">Επανεκκινήστε την εφαρμογή για να τεθούν σε ισχύ οι αλλαγές σας.</string>
+    <string name="action_restart_app">Επανεκκίνηση</string>
+    <string name="label_restart_pending">Επανεκκίνηση σε εκκρεμότητα</string>
 </resources>

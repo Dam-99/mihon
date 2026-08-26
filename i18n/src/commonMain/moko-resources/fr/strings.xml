@@ -918,4 +918,12 @@
     <string name="donationCampaign.paragraph3">Quoi qu\'il en soit, Mihon continuera d\'être maintenu par les contributeurs et moi-même, et restera open-source.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Faire disparaitre</string>
+    <string name="pref_launcher_alias">Icône et nom de l'application</string>
+    <string name="pref_launcher_alias_summary">Modifie le nom et l'icône de l'application</string>
+    <string name="pref_launcher_alias_apply_title">Appliquer les modifications ?</string>
+    <string name="pref_launcher_alias_apply_message">L'application va maintenant redémarrer pour appliquer les changements d'icône et de nom.</string>
+    <string name="pref_launcher_alias_pending_title">Changement de marque en attente</string>
+    <string name="pref_launcher_alias_pending_message">Redémarrez l'application pour que vos modifications prennent effet.</string>
+    <string name="action_restart_app">Redémarrer</string>
+    <string name="label_restart_pending">Redémarrage en attente</string>
 </resources>

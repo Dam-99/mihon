@@ -888,4 +888,12 @@
     <string name="pref_download_concurrent_sources">एक साथ स्रोत डाउनलोड</string>
     <string name="pref_download_concurrent_pages">एक साथ पेज डाउनलोड</string>
     <string name="pref_download_concurrent_pages_summary">प्रति स्रोत एक साथ डाउनलोड किए जाने वाले पृष्ठ</string>
+    <string name="pref_launcher_alias">ऐप आइकन और नाम</string>
+    <string name="pref_launcher_alias_summary">ऐप का नाम और आइकन बदलता है</string>
+    <string name="pref_launcher_alias_apply_title">बदलाव लागू करें?</string>
+    <string name="pref_launcher_alias_apply_message">आइकन और नाम में बदलाव लागू करने के लिए ऐप अब फिर से शुरू हो जाएगा।</string>
+    <string name="pref_launcher_alias_pending_title">ब्रांडिंग में बदलाव बाकी है</string>
+    <string name="pref_launcher_alias_pending_message">अपने बदलावों को प्रभावी बनाने के लिए ऐप को फिर से शुरू करें।</string>
+    <string name="action_restart_app">फिर से शुरू करें</string>
+    <string name="label_restart_pending">फिर से शुरू करना बाकी है</string>
 </resources>

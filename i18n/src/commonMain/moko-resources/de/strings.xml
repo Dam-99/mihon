@@ -918,4 +918,12 @@
     <string name="extensionStoresScreen.deleteStore.body">Möchtest du das Erweiterungsdepot \"%1$s\" (%2$s) entfernen?</string>
     <string name="pref_webtoon_vertical_navigator">Vertikalen Navigatior für das Lesen langer Streifen verwenden</string>
     <string name="pref_webtoon_vertical_navigator_on_left">Vertikalen Navigator auf der linken Seite platzieren</string>
+    <string name="pref_launcher_alias">App-Symbol und Name</string>
+    <string name="pref_launcher_alias_summary">Ändert den Namen und das Symbol der App</string>
+    <string name="pref_launcher_alias_apply_title">Änderungen übernehmen?</string>
+    <string name="pref_launcher_alias_apply_message">Die App wird nun neu gestartet, um Symbol- und Namensänderungen vorzunehmen.</string>
+    <string name="pref_launcher_alias_pending_title">Branding-Änderung ausstehend</string>
+    <string name="pref_launcher_alias_pending_message">Starte die App neu, damit deine Änderungen wirksam werden.</string>
+    <string name="action_restart_app">Neustart</string>
+    <string name="label_restart_pending">Neustart ausstehend</string>
 </resources>

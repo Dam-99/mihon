@@ -898,4 +898,12 @@
     <string name="donationCampaign.paragraph2">您可以透過 Patreon（建議優先使用）或 OpenCollective 進行贊助。如果有任何問題，或希望透過其他方式支持，歡迎透過 Mihon 的 Discord 伺服器與我聯繫。</string>
     <string name="donationCampaign.paragraph3">無論是否贊助，Mihon 都會持續由我與志工維護，並且維持開源。</string>
     <string name="donationCampaign.dismiss">關閉</string>
+    <string name="pref_launcher_alias">應用程式圖示和名稱</string>
+    <string name="pref_launcher_alias_summary">變更應用程式的名稱和圖示</string>
+    <string name="pref_launcher_alias_apply_title">要套用變更嗎？</string>
+    <string name="pref_launcher_alias_apply_message">App現在將重新啟動，以套用圖示和名稱變更。</string>
+    <string name="pref_launcher_alias_pending_title">品牌變更待處理</string>
+    <string name="pref_launcher_alias_pending_message">重新啟動應用程式，變更即可生效。</string>
+    <string name="action_restart_app">重啓</string>
+    <string name="label_restart_pending">重啓掛起</string>
 </resources>

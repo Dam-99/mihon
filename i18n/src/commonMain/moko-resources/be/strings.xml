@@ -885,4 +885,12 @@
     <string name="migrationListScreen.migrateDialog.copyLabel">Скапіяваць</string>
     <string name="migrationListScreen.migrateDialog.migrateLabel">Міграваць</string>
     <string name="migrationListScreen.matchWithoutChapterToast">Няма раздзелаў, твор не падыходзіць для міграцыі</string>
+    <string name="pref_launcher_alias">Значок праграмы і імя</string>
+    <string name="pref_launcher_alias_summary">Змяняе назву і значок праграмы</string>
+    <string name="pref_launcher_alias_apply_title">Ужыць змены?</string>
+    <string name="pref_launcher_alias_apply_message">Цяпер праграма перазапусьціцца, каб ужыць значкі і зьмены назваў.</string>
+    <string name="pref_launcher_alias_pending_title">Змена брэнда ў чаканні</string>
+    <string name="pref_launcher_alias_pending_message">Перазагрузіце праграму, каб вашы змены ўступілі ў сілу.</string>
+    <string name="action_restart_app">Перазапусціць</string>
+    <string name="label_restart_pending">Перазагрузка ў чаканні</string>
 </resources>

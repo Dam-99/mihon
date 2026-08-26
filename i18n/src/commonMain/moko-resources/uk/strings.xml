@@ -837,4 +837,12 @@
     <string name="action_webview_close_tab">Закрити вкладку</string>
     <string name="theme_catppuccin">Catppuccin</string>
     <string name="pref_display_images_description">Рендерити зображення в описах манґи</string>
+    <string name="pref_launcher_alias">Піктограма та назва додатка</string>
+    <string name="pref_launcher_alias_summary">Зміна назви та піктограми додатка</string>
+    <string name="pref_launcher_alias_apply_title">Застосувати зміни?</string>
+    <string name="pref_launcher_alias_apply_message">Тепер додаток перезапуститься, щоб застосувати зміни піктограм і імен.</string>
+    <string name="pref_launcher_alias_pending_title">Очікується зміна брендингу</string>
+    <string name="pref_launcher_alias_pending_message">Перезапустіть додаток, щоб зміни набули чинності.</string>
+    <string name="action_restart_app">Перезапустити</string>
+    <string name="label_restart_pending">Перезапуск очікує на розгляд</string>
 </resources>

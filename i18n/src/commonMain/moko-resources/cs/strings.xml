@@ -918,4 +918,12 @@
     <string name="donationCampaign.paragraph3">Ať už to dopadne jakkoli, o Mihon se budu i nadále starat já spolu s dobrovolníky a zůstane open source.</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="donationCampaign.dismiss">Zavřít</string>
+    <string name="pref_launcher_alias">Ikona a název aplikace</string>
+    <string name="pref_launcher_alias_summary">Změní název a ikonu aplikace</string>
+    <string name="pref_launcher_alias_apply_title">Použít změny?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikace se nyní restartuje a použije změny ikon a názvů.</string>
+    <string name="pref_launcher_alias_pending_title">Změna značky čeká na vyřízení</string>
+    <string name="pref_launcher_alias_pending_message">Aby se změny projevily, restartuj aplikaci.</string>
+    <string name="action_restart_app">Restartovat</string>
+    <string name="label_restart_pending">Restartování čeká na vyřízení</string>
 </resources>

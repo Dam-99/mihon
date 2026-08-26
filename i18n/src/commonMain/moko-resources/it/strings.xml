@@ -893,4 +893,12 @@
     <string name="migrationListScreen.matchWithoutChapterToast">Nessun capitolo trovato, questa voce non può essere utilizzata per la migrazione</string>
     <string name="download_bookmarked">Segnato</string>
     <string name="action_filter_excluded_scanlators">Filtrare i scanlator esclusi</string>
+    <string name="pref_launcher_alias">Icona e nome dell'app</string>
+    <string name="pref_launcher_alias_summary">Modifica il nome e l'icona dell'app</string>
+    <string name="pref_launcher_alias_apply_title">Applicare le modifiche?</string>
+    <string name="pref_launcher_alias_apply_message">L'app verrà riavviata per applicare le modifiche all'icona e al nome.</string>
+    <string name="pref_launcher_alias_pending_title">Modifica del branding in sospeso</string>
+    <string name="pref_launcher_alias_pending_message">Riavvia l'app per rendere effettive le modifiche.</string>
+    <string name="action_restart_app">Riavvia</string>
+    <string name="label_restart_pending">Riavvio in sospeso</string>
 </resources>
