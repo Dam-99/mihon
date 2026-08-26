@@ -791,4 +791,12 @@
     <string name="update_check_skip">Пропусни тази версия</string>
     <string name="update_check_skip_title">Пропусни%s?</string>
     <string name="tracked_privately">Проследявани в поверителен режим</string>
+    <string name="pref_launcher_alias">Икона и име на приложението</string>
+    <string name="pref_launcher_alias_summary">Променя името и иконата на приложението</string>
+    <string name="pref_launcher_alias_apply_title">Прилагане на промените?</string>
+    <string name="pref_launcher_alias_apply_message">Сега приложението ще се рестартира, за да приложи иконата и промените в името.</string>
+    <string name="pref_launcher_alias_pending_title">Изчаква се промяна на бранда</string>
+    <string name="pref_launcher_alias_pending_message">Рестартирайте приложението, за да влязат в сила промените ви.</string>
+    <string name="action_restart_app">Рестартиране</string>
+    <string name="label_restart_pending">Рестартирането е в изчакване</string>
 </resources>

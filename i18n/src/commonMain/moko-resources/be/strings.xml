@@ -929,4 +929,12 @@
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="extensionStoresScreen.emptyLabel">Вы яшчэ не дадавалі крам пашырэнняў</string>
     <string name="supportUsScreen.contactForDetailsMessage">Каб даведацца пра іншыя спосабы падтрымкі ці задаць пытанні, заглядайце ў наш Discord-сервер.</string>
+    <string name="pref_launcher_alias">Значок праграмы і імя</string>
+    <string name="pref_launcher_alias_summary">Змяняе назву і значок праграмы</string>
+    <string name="pref_launcher_alias_apply_title">Ужыць змены?</string>
+    <string name="pref_launcher_alias_apply_message">Цяпер праграма перазапусьціцца, каб ужыць значкі і зьмены назваў.</string>
+    <string name="pref_launcher_alias_pending_title">Змена брэнда ў чаканні</string>
+    <string name="pref_launcher_alias_pending_message">Перазагрузіце праграму, каб вашы змены ўступілі ў сілу.</string>
+    <string name="action_restart_app">Перазапусціць</string>
+    <string name="label_restart_pending">Перазагрузка ў чаканні</string>
 </resources>
