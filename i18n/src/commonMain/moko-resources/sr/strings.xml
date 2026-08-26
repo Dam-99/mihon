@@ -779,4 +779,12 @@
     <string name="action_revert_to_default">Врати на подразумевано</string>
     <string name="action_add_anyway">Dodati svejedno</string>
     <string name="label_upcoming">Predstojeći</string>
+    <string name="pref_launcher_alias">Ikona i naziv aplikacije</string>
+    <string name="pref_launcher_alias_summary">Promena naziva i ikone aplikacije</string>
+    <string name="pref_launcher_alias_apply_title">Želite li da primenite promene?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikacija će se sada ponovo pokrenuti da biste primenili ikone i promene imena.</string>
+    <string name="pref_launcher_alias_pending_title">Promena brenda je na čekanju</string>
+    <string name="pref_launcher_alias_pending_message">Ponovo pokrenite aplikaciju da bi promene stupile na snagu.</string>
+    <string name="action_restart_app">Ponovo pokreni</string>
+    <string name="label_restart_pending">Ponovo pokrenite na čekanju</string>
 </resources>

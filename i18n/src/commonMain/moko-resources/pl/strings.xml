@@ -829,4 +829,12 @@
     <string name="action_display_unread_badge">Nieprzeczytane rozdziały</string>
     <string name="theme_catppuccin">Catppucin</string>
     <string name="pref_behavior">Zachowanie</string>
+    <string name="pref_launcher_alias">Ikona i nazwa aplikacji</string>
+    <string name="pref_launcher_alias_summary">Zmienia nazwę i ikonę aplikacji</string>
+    <string name="pref_launcher_alias_apply_title">Zastosować zmiany?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikacja uruchomi się ponownie, aby zastosować zmiany ikon i nazw.</string>
+    <string name="pref_launcher_alias_pending_title">Oczekiwanie na zmianę marki</string>
+    <string name="pref_launcher_alias_pending_message">Uruchom ponownie aplikację, aby zmiany zaczęły obowiązywać.</string>
+    <string name="action_restart_app">Uruchom ponownie</string>
+    <string name="label_restart_pending">Oczekiwanie na ponowne uruchomienie</string>
 </resources>

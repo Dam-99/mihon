@@ -883,4 +883,12 @@
     <string name="pref_download_concurrent_pages_summary">ஒவ்வொரு மூலத்திற்கும் ஒரே நேரத்தில் பதிவிறக்கம் செய்யப்பட்ட பக்கங்கள்</string>
     <string name="download_bookmarked">புத்தகக்குறி செய்யப்பட்டது</string>
     <string name="action_filter_excluded_scanlators">நீக்கப்பட்ட ச்கேலேட்டர்களை வடிகட்டி</string>
+    <string name="pref_launcher_alias">ஆப் ஐகான் மற்றும் பெயர்</string>
+    <string name="pref_launcher_alias_summary">ஆப்பின் பெயர் மற்றும் ஐகானை மாற்றுகிறது</string>
+    <string name="pref_launcher_alias_apply_title">மாற்றங்களைப் பயன்படுத்தவா?</string>
+    <string name="pref_launcher_alias_apply_message">ஐகான் மற்றும் பெயர் மாற்றங்களைப் பயன்படுத்த ஆப் இப்போது மறுதொடக்கம் செய்யும்.</string>
+    <string name="pref_launcher_alias_pending_title">பிராண்டிங் மாற்றம் நிலுவையில் உள்ளது</string>
+    <string name="pref_launcher_alias_pending_message">உங்கள் மாற்றங்கள் நடைமுறைக்கு வர ஆப்பை மறுதொடக்கம் செய்யுங்கள்.</string>
+    <string name="action_restart_app">மீண்டும் தொடங்கு</string>
+    <string name="label_restart_pending">மறுதொடக்கம் நிலுவையில் உள்ளது</string>
 </resources>

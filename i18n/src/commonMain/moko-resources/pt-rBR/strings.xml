@@ -919,4 +919,12 @@
     <string name="pref_vertical_navigator_height">Altura do navegador vertical</string>
     <string name="considering">Considerando</string>
     <string name="theme_tokyonight">Noite em Tóquio</string>
+    <string name="pref_launcher_alias">Ícone e nome do aplicativo</string>
+    <string name="pref_launcher_alias_summary">Altera o nome e o ícone do aplicativo</string>
+    <string name="pref_launcher_alias_apply_title">Aplicar alterações?</string>
+    <string name="pref_launcher_alias_apply_message">O aplicativo agora será reiniciado para aplicar as alterações de ícone e nome.</string>
+    <string name="pref_launcher_alias_pending_title">Alteração de marca pendente</string>
+    <string name="pref_launcher_alias_pending_message">Reinicie o aplicativo para que suas alterações entrem em vigor.</string>
+    <string name="action_restart_app">Reiniciar</string>
+    <string name="label_restart_pending">Reiniciar pendente</string>
 </resources>

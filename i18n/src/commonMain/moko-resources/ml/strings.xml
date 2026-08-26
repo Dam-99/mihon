@@ -241,4 +241,12 @@
     <string name="pref_category_delete_chapters">അദ്ധ്യായം മായ്ച്ചുകളയുക</string>
     <string name="pref_remove_after_marked_as_read">സ്വന്തമായി വായിച്ചെൻ അടയാളപ്പെടുത്തിയതിൻ ശേഷം</string>
     <string name="pref_remove_after_read">യാന്ത്രികമായി വായിച്ചെതിനു ശേഷം മായ്ച്ചുകളയുക</string>
+    <string name="pref_launcher_alias">ആപ്പ് ഐക്കണും പേരും</string>
+    <string name="pref_launcher_alias_summary">ആപ്പിന്റെ പേരും ഐക്കണും മാറ്റുന്നു</string>
+    <string name="pref_launcher_alias_apply_title">മാറ്റങ്ങൾ പ്രയോഗിക്കണോ?</string>
+    <string name="pref_launcher_alias_apply_message">ഐക്കണും പേര് മാറ്റങ്ങളും പ്രയോഗിക്കാൻ ആപ്പ് ഇപ്പോൾ പുനരാരംഭിക്കും.</string>
+    <string name="pref_launcher_alias_pending_title">ബ്രാൻഡിംഗ് മാറ്റം തീർപ്പുകൽപ്പിച്ചിട്ടില്ല</string>
+    <string name="pref_launcher_alias_pending_message">നിങ്ങളുടെ മാറ്റങ്ങൾ പ്രാബല്യത്തിൽ വരുന്നതിന് ആപ്പ് പുനരാരംഭിക്കുക.</string>
+    <string name="action_restart_app">പുനരാരംഭിക്കുക</string>
+    <string name="label_restart_pending">പുനരാരംഭിക്കൽ തീർപ്പുകൽപ്പിച്ചിട്ടില്ല</string>
 </resources>

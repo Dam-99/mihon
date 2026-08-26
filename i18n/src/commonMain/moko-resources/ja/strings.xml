@@ -913,4 +913,12 @@
     <string name="theme_tokyonight">Tokyo Night</string>
     <string name="extensionStoresScreen.addStoreInput.inputLabel">拡張機能ストアのインデックス URL</string>
     <string name="downloading_with_progress">ダウンロード中… (%d%%)</string>
+    <string name="pref_launcher_alias">アプリのアイコンと名前</string>
+    <string name="pref_launcher_alias_summary">アプリの名前とアイコンを変更する</string>
+    <string name="pref_launcher_alias_apply_title">変更を適用しますか？</string>
+    <string name="pref_launcher_alias_apply_message">これで、アイコンと名前の変更を適用するためにアプリが再起動します。</string>
+    <string name="pref_launcher_alias_pending_title">ブランド変更保留中</string>
+    <string name="pref_launcher_alias_pending_message">変更を有効にするには、アプリを再起動してください。</string>
+    <string name="action_restart_app">再起動</string>
+    <string name="label_restart_pending">再開保留中</string>
 </resources>

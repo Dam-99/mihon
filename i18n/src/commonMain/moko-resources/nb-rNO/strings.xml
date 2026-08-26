@@ -774,4 +774,12 @@
     <string name="action_open_repo">Åpne pakkebrønnen</string>
     <string name="label_upcoming">Kommende</string>
     <string name="action_add_anyway">Legg til likevel</string>
+    <string name="pref_launcher_alias">Appikon og navn</string>
+    <string name="pref_launcher_alias_summary">Endrer appens navn og ikon</string>
+    <string name="pref_launcher_alias_apply_title">Vil du bruke endringene?</string>
+    <string name="pref_launcher_alias_apply_message">Appen starter nå på nytt for å implementere ikon- og navneendringene.</string>
+    <string name="pref_launcher_alias_pending_title">Merkevareendring venter</string>
+    <string name="pref_launcher_alias_pending_message">Start appen på nytt for at endringene skal tre i kraft.</string>
+    <string name="action_restart_app">Start på nytt</string>
+    <string name="label_restart_pending">Omstart venter</string>
 </resources>

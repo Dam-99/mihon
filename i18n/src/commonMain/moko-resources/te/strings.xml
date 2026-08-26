@@ -192,4 +192,12 @@
     <string name="portrait">చిత్తరువు</string>
     <string name="landscape">ప్రకృతి దృశ్యం</string>
     <string name="paused">నిలిపివేయబడింది</string>
+    <string name="pref_launcher_alias">యాప్ ఐకాన్ మరియు పేరు</string>
+    <string name="pref_launcher_alias_summary">యాప్ పేరు మరియు ఐకాన్ ‌ ను మారుస్తుంది</string>
+    <string name="pref_launcher_alias_apply_title">మార్పులను వర్తింపజేయాలా?</string>
+    <string name="pref_launcher_alias_apply_message">ఐకాన్ మరియు పేరు మార్పులను వర్తింపజేయడానికి యాప్ ఇప్పుడు రీస్టార్ట్ అవుతుంది.</string>
+    <string name="pref_launcher_alias_pending_title">బ్రాండింగ్ మార్పు పెండింగ్ ‌ లో ఉంది</string>
+    <string name="pref_launcher_alias_pending_message">మీ మార్పులు అమలులోకి రావడానికి యాప్ ‌ ను రీస్టార్ట్ చేయండి.</string>
+    <string name="action_restart_app">రీస్టార్ట్ చేయండి</string>
+    <string name="label_restart_pending">రీస్టార్ట్ పెండింగ్ ‌ లో ఉంది</string>
 </resources>

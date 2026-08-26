@@ -919,4 +919,12 @@
     <string name="pref_vertical_navigator_height">세로 탐색기 높이</string>
     <string name="considering">고려 중</string>
     <string name="theme_tokyonight">도쿄 나이트</string>
+    <string name="pref_launcher_alias">앱 아이콘 및 이름</string>
+    <string name="pref_launcher_alias_summary">앱의 이름과 아이콘을 변경합니다.</string>
+    <string name="pref_launcher_alias_apply_title">변경 사항을 적용하시겠습니까?</string>
+    <string name="pref_launcher_alias_apply_message">이제 아이콘과 이름 변경 사항을 적용하기 위해 앱이 다시 시작됩니다.</string>
+    <string name="pref_launcher_alias_pending_title">브랜딩 변경 대기 중</string>
+    <string name="pref_launcher_alias_pending_message">변경 사항을 적용하려면 앱을 다시 시작하세요.</string>
+    <string name="action_restart_app">다시 시작</string>
+    <string name="label_restart_pending">재시작 대기 중</string>
 </resources>

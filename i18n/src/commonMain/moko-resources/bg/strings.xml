@@ -747,4 +747,12 @@
     <string name="onboarding_permission_install_apps">Разрешение за инсталиране на приложения</string>
     <string name="onboarding_permission_ignore_battery_opts">Фоново потребление на батерията</string>
     <string name="onboarding_storage_info">Избери папка, където %1$s ще съхранява изтеглени глави, резервни копия и други.\n\nПрепоръчва се специална папка.\nИзбрана папка: %2$s</string>
+    <string name="pref_launcher_alias">Икона и име на приложението</string>
+    <string name="pref_launcher_alias_summary">Променя името и иконата на приложението</string>
+    <string name="pref_launcher_alias_apply_title">Прилагане на промените?</string>
+    <string name="pref_launcher_alias_apply_message">Сега приложението ще се рестартира, за да приложи иконата и промените в името.</string>
+    <string name="pref_launcher_alias_pending_title">Изчаква се промяна на бранда</string>
+    <string name="pref_launcher_alias_pending_message">Рестартирайте приложението, за да влязат в сила промените ви.</string>
+    <string name="action_restart_app">Рестартиране</string>
+    <string name="label_restart_pending">Рестартирането е в изчакване</string>
 </resources>

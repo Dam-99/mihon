@@ -916,4 +916,12 @@
     <string name="pref_vertical_navigator_height">Chiều cao thanh điều hướng dọc</string>
     <string name="considering">Đang cân nhắc</string>
     <string name="theme_tokyonight">Đêm Tokyo</string>
+    <string name="pref_launcher_alias">Biểu tượng ứng dụng và tên</string>
+    <string name="pref_launcher_alias_summary">Thay đổi tên và biểu tượng của ứng dụng</string>
+    <string name="pref_launcher_alias_apply_title">Áp dụng thay đổi?</string>
+    <string name="pref_launcher_alias_apply_message">Bây giờ, ứng dụng sẽ khởi động lại để áp dụng các thay đổi về biểu tượng và tên.</string>
+    <string name="pref_launcher_alias_pending_title">Thay đổi thương hiệu đang chờ xử lý</string>
+    <string name="pref_launcher_alias_pending_message">Khởi động lại ứng dụng để các thay đổi của bạn có hiệu lực.</string>
+    <string name="action_restart_app">Khởi động lại</string>
+    <string name="label_restart_pending">Khởi động lại đang chờ xử lý</string>
 </resources>

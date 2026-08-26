@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_launcher_alias">Undo-type</string>
+    <string name="pref_launcher_alias_summary">Undo-type</string>
+    <string name="pref_launcher_alias_apply_title">Үзгәртүләрне кулланыргамы?</string>
+    <string name="pref_launcher_alias_apply_message">Хәзер кушымта кабат иконаны һәм исем үзгәртүләрен куллана башлаячак.</string>
+    <string name="pref_launcher_alias_pending_title">Törge üzgäreşlär ütkärü</string>
+    <string name="pref_launcher_alias_pending_message">Үзгәрешләр гамәлгә керсен өчен, кушымтаны яңадан эшләтеп җибәрегез.</string>
+    <string name="action_restart_app">Яңадан башлау</string>
+    <string name="label_restart_pending">Undo-type</string>
 </resources>

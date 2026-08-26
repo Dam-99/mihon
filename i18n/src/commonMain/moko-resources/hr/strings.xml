@@ -904,4 +904,12 @@
     <string name="donationCampaign.paragraph1">Pozdrav! Ja sam glavni programer Mihona i želim te zamoliti da razmisliš o financijskoj potpori njegovom razvoju. Uz dovoljno podrške, moći ću raditi na Mihonu puno radno vrijeme i usredotočiti se na dugogodišnje probleme, kao i na vrlo tražene funkcije.</string>
     <string name="donationCampaign.paragraph2">Možeš donirati putem Patreona (preferiran način) ili putem OpenCollective-a. Ako imaš pitanja ili želiš podržati korištenje alternativnih načina, slobodno me kontaktiraj putem Mihonovog Discord servera.</string>
     <string name="donationCampaign.paragraph3">Bez obzira na to, volonteri i ja ćemo i dalje održavati Mihon, i ostat će otvorenog koda.</string>
+    <string name="pref_launcher_alias">Ikona i naziv aplikacije</string>
+    <string name="pref_launcher_alias_summary">Promjena naziva i ikone aplikacije</string>
+    <string name="pref_launcher_alias_apply_title">Primijeniti promjene?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikacija će se sada ponovno pokrenuti kako bi primijenila ikone i promjene imena.</string>
+    <string name="pref_launcher_alias_pending_title">Promjena brenda na čekanju</string>
+    <string name="pref_launcher_alias_pending_message">Ponovno pokreni aplikaciju kako bi izmjene stupile na snagu.</string>
+    <string name="action_restart_app">Ponovno pokreni</string>
+    <string name="label_restart_pending">Ponovno pokretanje na čekanju</string>
 </resources>
