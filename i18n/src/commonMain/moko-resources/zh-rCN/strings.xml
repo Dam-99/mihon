@@ -953,4 +953,20 @@
     <string name="refresh_tracker_profile">刷新跟踪器配置</string>
     <string name="refresh_tracker_success">刷新 %s 配置</string>
     <string name="refresh_tracker_error">%1$s 刷新错误： %2$s</string>
+    <string name="app_migrating_title">正在完成更新</string>
+    <string name="app_migrating_summary">更新后正在进行准备工作。这可能需要几分钟，请保持应用处于开启状态。</string>
+    <string name="pref_enable_chapter_name_hash">启用章节名称哈希后缀</string>
+    <string name="pref_time_format">时间格式</string>
+    <string name="follow_system">跟随系统</string>
+    <string name="follow_language">跟随系统语言</string>
+    <string name="time_24_hours">24小时</string>
+    <string name="time_12_hours">12小时</string>
+    <string name="pref_launcher_alias">应用图标和名称</string>
+    <string name="pref_launcher_alias_summary">更改应用的名称和图标</string>
+    <string name="pref_launcher_alias_apply_title">应用更改？</string>
+    <string name="pref_launcher_alias_apply_message">应用现在将重新启动以应用图标和名称更改。</string>
+    <string name="pref_launcher_alias_pending_title">品牌更改待定</string>
+    <string name="pref_launcher_alias_pending_message">请重新启动应用，以使更改生效。</string>
+    <string name="action_restart_app">重启</string>
+    <string name="label_restart_pending">重启挂起</string>
 </resources>
