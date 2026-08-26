@@ -919,4 +919,12 @@
     <string name="pref_vertical_navigator_height">Höhe des vertikalen Navigators</string>
     <string name="considering">Überlege ich zu lesen</string>
     <string name="theme_tokyonight">Tokyo Night</string>
+    <string name="pref_launcher_alias">App-Symbol und Name</string>
+    <string name="pref_launcher_alias_summary">Ändert den Namen und das Symbol der App</string>
+    <string name="pref_launcher_alias_apply_title">Änderungen übernehmen?</string>
+    <string name="pref_launcher_alias_apply_message">Die App wird nun neu gestartet, um Symbol- und Namensänderungen vorzunehmen.</string>
+    <string name="pref_launcher_alias_pending_title">Branding-Änderung ausstehend</string>
+    <string name="pref_launcher_alias_pending_message">Starte die App neu, damit deine Änderungen wirksam werden.</string>
+    <string name="action_restart_app">Neustart</string>
+    <string name="label_restart_pending">Neustart ausstehend</string>
 </resources>

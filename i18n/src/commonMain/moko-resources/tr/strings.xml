@@ -920,4 +920,12 @@
     <string name="considering">Düşünülüyor</string>
     <string name="theme_tokyonight">Tokyo Gecesi</string>
     <string name="downloading_with_progress">İndiriliyor… (%d%%)</string>
+    <string name="pref_launcher_alias">Uygulama simgesi ve adı</string>
+    <string name="pref_launcher_alias_summary">Uygulamanın adını ve simgesini değiştirir</string>
+    <string name="pref_launcher_alias_apply_title">Değişiklikler uygulansın mı?</string>
+    <string name="pref_launcher_alias_apply_message">Uygulama şimdi simge ve ad değişikliklerini uygulamak için yeniden başlatılacak.</string>
+    <string name="pref_launcher_alias_pending_title">Markalama değişikliği beklemede</string>
+    <string name="pref_launcher_alias_pending_message">Değişikliklerinin etkili olması için uygulamayı yeniden başlat.</string>
+    <string name="action_restart_app">Yeniden başlat</string>
+    <string name="label_restart_pending">Yeniden başlatma beklemede</string>
 </resources>

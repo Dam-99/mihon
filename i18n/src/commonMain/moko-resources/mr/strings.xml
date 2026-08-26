@@ -213,4 +213,12 @@
     <string name="action_set_interval">मध्यांतर</string>
     <string name="action_filter_tracked">ट्रॅक केले</string>
     <string name="action_filter_interval_custom">कस्टमाईज्ड फेच इंटरवल</string>
+    <string name="pref_launcher_alias">अ‍ॅप चिन्ह आणि नाव</string>
+    <string name="pref_launcher_alias_summary">अॅपचे नाव आणि आयकॉन बदलणे</string>
+    <string name="pref_launcher_alias_apply_title">बदल लागू करायचे?</string>
+    <string name="pref_launcher_alias_apply_message">आता आयकॉन आणि नाव बदल लागू करण्यासाठी अॅप रीस्टार्ट होईल.</string>
+    <string name="pref_launcher_alias_pending_title">ब्रँडिंग बदल प्रलंबित</string>
+    <string name="pref_launcher_alias_pending_message">तुमच्या बदलांची अंमलबजावणी करण्यासाठी ॲप रीस्टार्ट करा.</string>
+    <string name="action_restart_app">पुन्हा सुरू करा</string>
+    <string name="label_restart_pending">प्रलंबित रीस्टार्ट करा</string>
 </resources>
