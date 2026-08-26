@@ -968,4 +968,12 @@
     <string name="follow_language">El de la llengua</string>
     <string name="time_24_hours">24 hores</string>
     <string name="time_12_hours">12 hores</string>
+    <string name="pref_launcher_alias">Icona i nom de l'aplicació</string>
+    <string name="pref_launcher_alias_summary">Canvia el nom i la icona de l'aplicació</string>
+    <string name="pref_launcher_alias_apply_title">Vols aplicar els canvis?</string>
+    <string name="pref_launcher_alias_apply_message">Ara l'aplicació es reiniciarà per aplicar els canvis d'icona i de nom.</string>
+    <string name="pref_launcher_alias_pending_title">Canvi de marca pendent</string>
+    <string name="pref_launcher_alias_pending_message">Reinicia l'aplicació perquè els canvis tinguin efecte.</string>
+    <string name="action_restart_app">Reinicia</string>
+    <string name="label_restart_pending">Torna a començar pendent</string>
 </resources>
