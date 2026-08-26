@@ -915,4 +915,12 @@
     <string name="pref_filter_update_categories_details">Hindi ipapakita ang mga update sa mga nakabukod na kategorya, kahit kabilang pa ang mga ito sa mga napiling kategorya.</string>
     <string name="pref_filter_upcoming_categories_details">Hindi ipapakita ang mga update sa mga nakabukod na kategorya, kahit kabilang pa ang mga ito sa mga napiling kategorya.</string>
     <string name="theme_tokyonight">Tokyo sa Gabi</string>
+    <string name="pref_launcher_alias">Icon at pangalan ng app</string>
+    <string name="pref_launcher_alias_summary">Binabago ang pangalan at icon ng app</string>
+    <string name="pref_launcher_alias_apply_title">Ilapat ang mga pagbabago?</string>
+    <string name="pref_launcher_alias_apply_message">Magre-restart na ngayon ang app para ilapat ang mga pagbabago sa icon at pangalan.</string>
+    <string name="pref_launcher_alias_pending_title">Nakabinbin ang pagbabago ng branding</string>
+    <string name="pref_launcher_alias_pending_message">I-restart ang app para magkabisa ang iyong mga pagbabago.</string>
+    <string name="action_restart_app">I-restart</string>
+    <string name="label_restart_pending">Nakabinbin ang pag-restart</string>
 </resources>

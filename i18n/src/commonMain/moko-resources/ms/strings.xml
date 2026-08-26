@@ -909,4 +909,12 @@
     <string name="donationCampaign.dismiss">Tutup</string>
     <string name="donationCampaign.contactPlatform">Discord</string>
     <string name="supportUsScreen.contactPlatform">Discord</string>
+    <string name="pref_launcher_alias">Ikon dan nama aplikasi</string>
+    <string name="pref_launcher_alias_summary">Mengubah nama dan ikon aplikasi</string>
+    <string name="pref_launcher_alias_apply_title">Memohon perubahan?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikasi kini akan dimulakan semula untuk menggunakan perubahan ikon dan nama.</string>
+    <string name="pref_launcher_alias_pending_title">Perubahan penjenamaan menunggu</string>
+    <string name="pref_launcher_alias_pending_message">Mulakan semula aplikasi agar perubahan anda berkesan.</string>
+    <string name="action_restart_app">Mula semula</string>
+    <string name="label_restart_pending">Mulakan semula menunggu</string>
 </resources>

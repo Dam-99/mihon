@@ -265,4 +265,12 @@
     <string name="sort_by_source">Etter kjelde</string>
     <string name="manga_cover">Omslag</string>
     <string name="manga_download">Last ned</string>
+    <string name="pref_launcher_alias">App-ikon og navn</string>
+    <string name="pref_launcher_alias_summary">Endrer appens navn og ikon</string>
+    <string name="pref_launcher_alias_apply_title">Bruke endringene?</string>
+    <string name="pref_launcher_alias_apply_message">Appen vil nå starte på nytt for å bruke ikon- og navneendringer.</string>
+    <string name="pref_launcher_alias_pending_title">Endring av merkevare i påvente</string>
+    <string name="pref_launcher_alias_pending_message">Start appen på nytt for at endringene skal tre i kraft.</string>
+    <string name="action_restart_app">Start på nytt</string>
+    <string name="label_restart_pending">Start på nytt i påvente av</string>
 </resources>

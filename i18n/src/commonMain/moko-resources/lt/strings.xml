@@ -675,4 +675,12 @@
     <string name="enhanced_services_not_installed">Turima, bet šaltinis nėra įdiegtas: %s</string>
     <string name="pref_library_update_show_tab_badge">Rodyti neperskaitytų skaičių ant Naujienų piktogramos</string>
     <string name="pref_skip_dupe_chapters">Praleisti pasikartojančius skyrius</string>
+    <string name="pref_launcher_alias">Programėlės piktograma ir pavadinimas</string>
+    <string name="pref_launcher_alias_summary">Pakeičiamas programėlės pavadinimas ir piktograma</string>
+    <string name="pref_launcher_alias_apply_title">Taikyti pakeitimus?</string>
+    <string name="pref_launcher_alias_apply_message">Dabar programėlė bus paleista iš naujo, kad būtų pritaikyti piktogramos ir vardo pakeitimai.</string>
+    <string name="pref_launcher_alias_pending_title">Laukiama prekės ženklo pakeitimo</string>
+    <string name="pref_launcher_alias_pending_message">Paleiskite programėlę iš naujo, kad pakeitimai įsigaliotų.</string>
+    <string name="action_restart_app">Paleisti iš naujo</string>
+    <string name="label_restart_pending">Laukiama paleidimo iš naujo</string>
 </resources>

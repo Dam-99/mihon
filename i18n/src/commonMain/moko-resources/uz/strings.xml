@@ -356,4 +356,12 @@
     <string name="pref_webtoon_side_padding">Yon bo\'shliq</string>
     <string name="pref_remove_bookmarked_chapters">Xatchopli boblarni o\'chirish</string>
     <string name="third_to_last">O\'qilgan bobdan uchinchisi</string>
+    <string name="pref_launcher_alias">Ilova belgisi va nomi</string>
+    <string name="pref_launcher_alias_summary">Ilova nomi va ikonkasini o&amp;#39;zgartiradi</string>
+    <string name="pref_launcher_alias_apply_title">O&amp;#39;zgarishlar qo&amp;#39;llanilsinmi?</string>
+    <string name="pref_launcher_alias_apply_message">Ilova endi ikonka va nom o&amp;#39;zgarishlarini qo&amp;#39;llash uchun qayta ishga tushiriladi.</string>
+    <string name="pref_launcher_alias_pending_title">Brending o&amp;#39;zgarishi kutilmoqda</string>
+    <string name="pref_launcher_alias_pending_message">O&amp;#39;zgarishlar kuchga kirishi uchun ilovani qayta ishga tushiring.</string>
+    <string name="action_restart_app">Qayta ishga tushirish</string>
+    <string name="label_restart_pending">Qayta ishga tushirish kutilmoqda</string>
 </resources>

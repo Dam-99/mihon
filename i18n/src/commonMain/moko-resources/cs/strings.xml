@@ -915,4 +915,12 @@
     <string name="downloading_with_progress">Stahování… (%d%%)</string>
     <string name="pref_filter_update_categories_details">Aktualizace v kategoriích, které byly vyloučeny, se nezobrazí, i když se zároveň nacházejí v některé ze zahrnutých kategorií.</string>
     <string name="pref_filter_upcoming_categories_details">Položky ve vyloučených kategoriích se nezobrazují, i když patří také do některé ze zahrnutých kategorií.</string>
+    <string name="pref_launcher_alias">Ikona a název aplikace</string>
+    <string name="pref_launcher_alias_summary">Změní název a ikonu aplikace</string>
+    <string name="pref_launcher_alias_apply_title">Použít změny?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikace se nyní restartuje a použije změny ikon a názvů.</string>
+    <string name="pref_launcher_alias_pending_title">Změna značky čeká na vyřízení</string>
+    <string name="pref_launcher_alias_pending_message">Aby se změny projevily, restartuj aplikaci.</string>
+    <string name="action_restart_app">Restartovat</string>
+    <string name="label_restart_pending">Restartování čeká na vyřízení</string>
 </resources>

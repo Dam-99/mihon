@@ -650,4 +650,12 @@
     <string name="last_auto_backup_info">آخرین پشتیبان گیری خودکار: %s</string>
     <string name="pref_dns_over_https">DNS بیش از HTTPS (DoH)</string>
     <string name="library_sync_complete">همگام سازی کتاب خانه کامل شد</string>
+    <string name="pref_launcher_alias">آیکون و نام برنامه</string>
+    <string name="pref_launcher_alias_summary">نام و آیکون برنامه را تغییر می‌دهد</string>
+    <string name="pref_launcher_alias_apply_title">تغییرات اعمال شود؟</string>
+    <string name="pref_launcher_alias_apply_message">اکنون برنامه برای اعمال تغییرات آیکون و نام، مجدداً راه‌اندازی می‌شود.</string>
+    <string name="pref_launcher_alias_pending_title">تغییر نام تجاری در انتظار است</string>
+    <string name="pref_launcher_alias_pending_message">برای اعمال تغییرات، برنامه را مجدداً راه‌اندازی کنید.</string>
+    <string name="action_restart_app">راه اندازی مجدد</string>
+    <string name="label_restart_pending">در حال بررسی، راه‌اندازی مجدد</string>
 </resources>

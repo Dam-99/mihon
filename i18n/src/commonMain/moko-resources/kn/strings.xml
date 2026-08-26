@@ -497,4 +497,12 @@
     <string name="categorized_display_settings">ಪ್ರತಿ ವರ್ಗದ ವಿಂಗಡಣೆ ಮತ್ತು ಪ್ರದರ್ಶನಕ್ಕಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="restrictions">ನಿರ್ಬಂಧಗಳು: %s</string>
     <string name="action_start_downloading_now">ಈಗಲೇ ಡೌನ್‌ಲೋಡ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="pref_launcher_alias">ಆ್ಯಪ್ ಐಕಾನ್ ಮತ್ತು ಹೆಸರು</string>
+    <string name="pref_launcher_alias_summary">ಆ್ಯಪ್‌ನ ಹೆಸರು ಮತ್ತು ಐಕಾನ್ ಅನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ</string>
+    <string name="pref_launcher_alias_apply_title">ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸುವುದೇ?</string>
+    <string name="pref_launcher_alias_apply_message">ಐಕಾನ್ ಮತ್ತು ಹೆಸರು ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಆ್ಯಪ್ ಈಗ ಮರುಪ್ರಾರಂಭಿಸುತ್ತದೆ.</string>
+    <string name="pref_launcher_alias_pending_title">ಬ್ರ್ಯಾಂಡಿಂಗ್ ಬದಲಾವಣೆ ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="pref_launcher_alias_pending_message">ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಜಾರಿಗೆ ಬರಲು ಆ್ಯಪ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.</string>
+    <string name="action_restart_app">ಮರುಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="label_restart_pending">ಮರುಪ್ರಾರಂಭಿಸಿ ಬಾಕಿ ಉಳಿದಿದೆ</string>
 </resources>

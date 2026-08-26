@@ -875,4 +875,12 @@
     <string name="migrationListScreen.progressDialog.cancelLabel">Cancel·la</string>
     <string name="migrationListScreen.matchWithoutChapterToast">No s’ha trobat cap capítol, aquest element no es pot utilitzar per a migrar</string>
     <string name="action_filter_excluded_scanlators">Filtra els scanlators exclosos</string>
+    <string name="pref_launcher_alias">Icona i nom de l'aplicació</string>
+    <string name="pref_launcher_alias_summary">Canvia el nom i la icona de l'aplicació</string>
+    <string name="pref_launcher_alias_apply_title">Vols aplicar els canvis?</string>
+    <string name="pref_launcher_alias_apply_message">Ara l'aplicació es reiniciarà per aplicar els canvis d'icona i de nom.</string>
+    <string name="pref_launcher_alias_pending_title">Canvi de marca pendent</string>
+    <string name="pref_launcher_alias_pending_message">Reinicia l'aplicació perquè els canvis tinguin efecte.</string>
+    <string name="action_restart_app">Reinicia</string>
+    <string name="label_restart_pending">Torna a començar pendent</string>
 </resources>

@@ -611,4 +611,12 @@
     <string name="label_upcoming">Etorkizunean</string>
     <string name="unlock_app_title">%s desblokeatu</string>
     <string name="action_copy_link">Esteka kopiatu</string>
+    <string name="pref_launcher_alias">Aplikazioaren ikonoa eta izena</string>
+    <string name="pref_launcher_alias_summary">Aplikazioaren izena eta ikonoa aldatzen ditu</string>
+    <string name="pref_launcher_alias_apply_title">Aldaketak aplikatu?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikazioa berrabiaraziko da orain ikono eta izen aldaketak aplikatzeko.</string>
+    <string name="pref_launcher_alias_pending_title">Marka aldaketa zain</string>
+    <string name="pref_launcher_alias_pending_message">Berrabiarazi aplikazioa zure aldaketak indarrean jartzeko.</string>
+    <string name="action_restart_app">Berrabiarazi</string>
+    <string name="label_restart_pending">Berrabiaraztea zain</string>
 </resources>

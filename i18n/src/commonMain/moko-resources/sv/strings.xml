@@ -908,4 +908,12 @@
     <string name="extensionStoresScreen.deleteStore.title">Ta bort tilläggsdepå</string>
     <string name="extensionStoresScreen.deleteStore.body">Vill du ta bort följande tilläggsdepå: \"%1$s\" (%2$s)?</string>
     <string name="pref_webtoon_vertical_navigator_on_left">Placera navigatorn på vänster sida</string>
+    <string name="pref_launcher_alias">App-ikon och namn</string>
+    <string name="pref_launcher_alias_summary">Ändrar appens namn och ikon</string>
+    <string name="pref_launcher_alias_apply_title">Tillämpa ändringar?</string>
+    <string name="pref_launcher_alias_apply_message">Appen kommer nu att starta om för att tillämpa ikon- och namnändringar.</string>
+    <string name="pref_launcher_alias_pending_title">Varumärkesändring väntar</string>
+    <string name="pref_launcher_alias_pending_message">Starta om appen för att ändringarna ska träda i kraft.</string>
+    <string name="action_restart_app">Starta om</string>
+    <string name="label_restart_pending">Starta om väntande</string>
 </resources>

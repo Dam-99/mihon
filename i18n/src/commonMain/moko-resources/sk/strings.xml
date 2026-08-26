@@ -731,4 +731,12 @@
     <string name="pref_flash_style_black">Čiernou</string>
     <string name="pref_flash_style_white">Bielou</string>
     <string name="pref_flash_style_white_black">Čiernou aj Bielou</string>
+    <string name="pref_launcher_alias">Ikona a názov aplikácie</string>
+    <string name="pref_launcher_alias_summary">Zmení názov a ikonu aplikácie</string>
+    <string name="pref_launcher_alias_apply_title">Použiť zmeny?</string>
+    <string name="pref_launcher_alias_apply_message">Aplikácia sa teraz reštartuje a použije zmeny ikon a názvov.</string>
+    <string name="pref_launcher_alias_pending_title">Čaká sa na zmenu značky</string>
+    <string name="pref_launcher_alias_pending_message">Reštartujte aplikáciu, aby sa zmeny prejavili.</string>
+    <string name="action_restart_app">Reštartovať</string>
+    <string name="label_restart_pending">Reštartovať čakajúce</string>
 </resources>

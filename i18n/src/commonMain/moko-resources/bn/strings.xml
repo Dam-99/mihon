@@ -824,4 +824,12 @@
     <string name="intervals_header">বিরতি</string>
     <string name="unknown_title">অজানা নাম</string>
     <string name="copied_to_clipboard_plain">ক্লিপবোর্ডে কপি হয়েছে</string>
+    <string name="pref_launcher_alias">অ্যাপ আইকন এবং নাম</string>
+    <string name="pref_launcher_alias_summary">অ্যাপের নাম এবং আইকন পরিবর্তন করে</string>
+    <string name="pref_launcher_alias_apply_title">পরিবর্তনগুলি প্রয়োগ করবেন?</string>
+    <string name="pref_launcher_alias_apply_message">আইকন এবং নাম পরিবর্তন প্রয়োগ করতে অ্যাপটি এখন পুনরায় চালু হবে ।</string>
+    <string name="pref_launcher_alias_pending_title">ব্র্যান্ডিং পরিবর্তন মুলতুবি রয়েছে</string>
+    <string name="pref_launcher_alias_pending_message">আপনার পরিবর্তনগুলি কার্যকর করতে অ্যাপটি পুনরায় চালু করুন ।</string>
+    <string name="action_restart_app">পুনরায় চালু করুন</string>
+    <string name="label_restart_pending">মুলতুবি থাকা অবস্থায় পুনরায় চালু করুন</string>
 </resources>

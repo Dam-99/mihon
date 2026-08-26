@@ -696,4 +696,12 @@
     <string name="unlock_app_title">%s шешу</string>
     <string name="action_filter_interval_custom">Өзгермелі жаңарту жиілігі</string>
     <string name="label_upcoming">Келешек</string>
+    <string name="pref_launcher_alias">Қолданба белгішесі және атауы</string>
+    <string name="pref_launcher_alias_summary">Қолданбаның атауы мен белгішесін өзгертеді</string>
+    <string name="pref_launcher_alias_apply_title">Өзгерістерді қолдану керек пе?</string>
+    <string name="pref_launcher_alias_apply_message">Қолданба енді белгішені және атауды өзгерту үшін қайта іске қосылады.</string>
+    <string name="pref_launcher_alias_pending_title">Брендтің өзгеруі күтілуде</string>
+    <string name="pref_launcher_alias_pending_message">Өзгерістер күшіне енуі үшін қолданбаны қайта іске қосыңыз.</string>
+    <string name="action_restart_app">Қайта іске қосу</string>
+    <string name="label_restart_pending">Қайта іске қосу күтілуде</string>
 </resources>

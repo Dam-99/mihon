@@ -938,4 +938,12 @@
     <string name="dual_page_view_never">Никогда</string>
     <string name="dual_page_view_always">Всегда</string>
     <string name="dual_page_view_wide">Когда экран широкий</string>
+    <string name="pref_launcher_alias">Значок и название приложения</string>
+    <string name="pref_launcher_alias_summary">Изменяет название и значок приложения</string>
+    <string name="pref_launcher_alias_apply_title">Применить изменения?</string>
+    <string name="pref_launcher_alias_apply_message">Приложение будет перезапущено, чтобы применить изменения значка и имени.</string>
+    <string name="pref_launcher_alias_pending_title">Ожидается изменение брендинга</string>
+    <string name="pref_launcher_alias_pending_message">Перезапустите приложение, чтобы изменения вступили в силу.</string>
+    <string name="action_restart_app">Перезапуск</string>
+    <string name="label_restart_pending">Ожидание перезапуска</string>
 </resources>

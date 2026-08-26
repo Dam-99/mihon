@@ -930,4 +930,12 @@
     <string name="dual_page_view_wide">寬螢幕時</string>
     <string name="pref_filter_update_categories_details">類別同時屬於「排除」及「包含」的更新將不會顯示。</string>
     <string name="pref_filter_upcoming_categories_details">類別同時屬於「排除」及「包含」的作品將不會顯示。</string>
+    <string name="pref_launcher_alias">應用程式圖示和名稱</string>
+    <string name="pref_launcher_alias_summary">變更應用程式的名稱和圖示</string>
+    <string name="pref_launcher_alias_apply_title">要套用變更嗎？</string>
+    <string name="pref_launcher_alias_apply_message">App現在將重新啟動，以套用圖示和名稱變更。</string>
+    <string name="pref_launcher_alias_pending_title">品牌變更待處理</string>
+    <string name="pref_launcher_alias_pending_message">重新啟動應用程式，變更即可生效。</string>
+    <string name="action_restart_app">重啓</string>
+    <string name="label_restart_pending">重啓掛起</string>
 </resources>

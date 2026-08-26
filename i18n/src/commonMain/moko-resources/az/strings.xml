@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="pref_launcher_alias">Tətbiq ikonu və adı</string>
+    <string name="pref_launcher_alias_summary">Tətbiqin adını və piktoqramını dəyişir</string>
+    <string name="pref_launcher_alias_apply_title">Dəyişikliklər tətbiq edilsin?</string>
+    <string name="pref_launcher_alias_apply_message">Tətbiq indi ikon və ad dəyişikliklərini tətbiq etmək üçün yenidən başlayacaq.</string>
+    <string name="pref_launcher_alias_pending_title">Brend dəyişikliyi gözləmədədir</string>
+    <string name="pref_launcher_alias_pending_message">Dəyişikliklərinizin qüvvəyə minməsi üçün tətbiqi yenidən başladın.</string>
+    <string name="action_restart_app">Yenidən başla</string>
+    <string name="label_restart_pending">Yenidən başlamaq gözləmədədir</string>
 </resources>

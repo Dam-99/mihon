@@ -738,4 +738,12 @@
     <string name="pref_relative_format">Relatīviās laika stampas</string>
     <string name="pref_relative_format_summary">\"%1$s\", nevis \"%2$s\"</string>
     <string name="exclude_scanlators">Izslēgt skanlatorus</string>
+    <string name="pref_launcher_alias">Lietotnes ikona un nosaukums</string>
+    <string name="pref_launcher_alias_summary">Maina lietotnes nosaukumu un ikonu</string>
+    <string name="pref_launcher_alias_apply_title">Vai lietot izmaiņas?</string>
+    <string name="pref_launcher_alias_apply_message">Tagad lietotne tiks restartēta, lai lietotu ikonu un nosaukuma izmaiņas.</string>
+    <string name="pref_launcher_alias_pending_title">Zīmola maiņa gaida apstiprinājumu</string>
+    <string name="pref_launcher_alias_pending_message">Restartē lietotni, lai izmaiņas stātos spēkā.</string>
+    <string name="action_restart_app">Restartēt</string>
+    <string name="label_restart_pending">Restartēšana gaida apstiprinājumu</string>
 </resources>
